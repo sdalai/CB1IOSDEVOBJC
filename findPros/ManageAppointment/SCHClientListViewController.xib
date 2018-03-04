@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SCHClientListViewController">
+            <connections>
+                <outlet property="OptionButton" destination="vpc-za-0Zq" id="n2h-Re-fuv"/>
+                <outlet property="searchBar" destination="oYr-Zh-qkI" id="H4O-9w-BoX"/>
+                <outlet property="tableView" destination="Fbl-K3-ceZ" id="oWr-2E-eT1"/>
+                <outlet property="view" destination="iN0-l3-epB" id="auW-NP-T10"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Fbl-K3-ceZ">
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="separatorColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="tw9-Kq-aF6"/>
+                        <outlet property="delegate" destination="-1" id="ln2-0U-Tdu"/>
+                    </connections>
+                </tableView>
+                <searchBar contentMode="redraw" misplaced="YES" searchBarStyle="prominent" translatesAutoresizingMaskIntoConstraints="NO" id="oYr-Zh-qkI">
+                    <frame key="frameInset" width="320" height="44"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <scopeButtonTitles>
+                        <string>Title</string>
+                        <string>Title</string>
+                    </scopeButtonTitles>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="ZS1-Oy-F0o"/>
+                    </connections>
+                </searchBar>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vpc-za-0Zq">
+                    <segments>
+                        <segment title="Clients"/>
+                        <segment title="Contacts"/>
+                    </segments>
+                </segmentedControl>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Fbl-K3-ceZ" secondAttribute="trailing" id="12d-sU-nog"/>
+                <constraint firstAttribute="bottom" secondItem="Fbl-K3-ceZ" secondAttribute="bottom" id="4LC-i0-Ke2"/>
+                <constraint firstAttribute="trailing" secondItem="oYr-Zh-qkI" secondAttribute="trailing" id="5rb-v3-3tL"/>
+                <constraint firstItem="vpc-za-0Zq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7YH-r8-MEb"/>
+                <constraint firstItem="oYr-Zh-qkI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="GD3-8u-Upb"/>
+                <constraint firstItem="Fbl-K3-ceZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="JhE-tk-8ta"/>
+                <constraint firstItem="vpc-za-0Zq" firstAttribute="top" secondItem="oYr-Zh-qkI" secondAttribute="bottom" id="Pb9-37-JFo"/>
+                <constraint firstAttribute="trailing" secondItem="vpc-za-0Zq" secondAttribute="trailing" id="TdN-dY-Knc"/>
+                <constraint firstItem="oYr-Zh-qkI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="W9J-Nm-tg1"/>
+                <constraint firstItem="vpc-za-0Zq" firstAttribute="top" secondItem="oYr-Zh-qkI" secondAttribute="bottom" id="XpG-9A-CiN"/>
+                <constraint firstItem="Fbl-K3-ceZ" firstAttribute="top" secondItem="vpc-za-0Zq" secondAttribute="bottom" constant="3" id="dfS-wn-ixT"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,1690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100239A31C0607370036C4BE /* SCHUserClientDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 100239A21C0607370036C4BE /* SCHUserClientDetailViewController.m */; };
+		10075A691B67A95B00DC622C /* findprosicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 10075A681B67A95B00DC622C /* findprosicon.png */; };
+		101457311B7515D400D616EA /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 101457301B7515D400D616EA /* flag.png */; };
+		101FCB501B4D74CD0026C0BE /* SCHServiceProviderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101FCB4F1B4D74CD0026C0BE /* SCHServiceProviderViewController.m */; };
+		101FCB531B4D793D0026C0BE /* SCHServiceProviderAvailabilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101FCB521B4D793D0026C0BE /* SCHServiceProviderAvailabilityViewController.m */; };
+		102719631C19CBBD00EE336C /* SCHUserAddNewClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 102719621C19CBBD00EE336C /* SCHUserAddNewClientViewController.m */; };
+		103A970F1B381FEF00BD5EB2 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 103A970E1B381FEF00BD5EB2 /* Reachability.m */; };
+		103C0C3D1B42CBBC001D0335 /* btndetail.png in Resources */ = {isa = PBXBuildFile; fileRef = 103C0C3C1B42CBBC001D0335 /* btndetail.png */; };
+		103C734E1BA9E0A400A1E367 /* SCHScheduleFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 103C734D1BA9E0A400A1E367 /* SCHScheduleFilterViewController.m */; };
+		103DCD1B1BCA6BF900E7C0A7 /* client_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 103DCD1A1BCA6BF900E7C0A7 /* client_logo.png */; };
+		103DCD1F1BCC00A400E7C0A7 /* FDTakeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 103DCD1E1BCC00A400E7C0A7 /* FDTakeController.m */; };
+		10423FCF1C08D0C700D62073 /* SCHMinorClassificationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10423FCE1C08D0C700D62073 /* SCHMinorClassificationTableViewController.m */; };
+		10460DAE1BDAB11A00D63E41 /* SCHEditServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10460DAD1BDAB11A00D63E41 /* SCHEditServiceViewController.m */; };
+		10460DB21BDAD87700D63E41 /* SCHEditOfferingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10460DB11BDAD87700D63E41 /* SCHEditOfferingViewController.m */; };
+		104660AB1BD5690300968AC5 /* SCHScheduleClientDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104660AA1BD5690300968AC5 /* SCHScheduleClientDetailViewController.m */; };
+		104A0E1C1B415A9C00C88FEE /* SCHNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104A0E1B1B415A9C00C88FEE /* SCHNotificationViewController.m */; };
+		1051DB5C1BB9A9B600F76D24 /* SCHLocationSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1051DB5B1BB9A9B600F76D24 /* SCHLocationSelectorViewController.m */; };
+		1051EB561B5E58E30083191F /* SCHScheduleSummeryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1051EB551B5E58E30083191F /* SCHScheduleSummeryViewController.m */; };
+		10531EB21C4FDFD800AFEC46 /* SCHHelpPrivacyPolicyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10531EB11C4FDFD800AFEC46 /* SCHHelpPrivacyPolicyTableViewController.m */; };
+		10531EB51C4FE00200AFEC46 /* SCHHelpTermOfUseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10531EB41C4FE00200AFEC46 /* SCHHelpTermOfUseTableViewController.m */; };
+		1057A0151B3C2B3600EDF8D7 /* locateButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1057A0111B3C2B3600EDF8D7 /* locateButton.png */; };
+		1057A0161B3C2B3600EDF8D7 /* locateButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1057A0121B3C2B3600EDF8D7 /* locateButton@2x.png */; };
+		1057A0171B3C2B3600EDF8D7 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 1057A0131B3C2B3600EDF8D7 /* location.png */; };
+		1057A0181B3C2B3600EDF8D7 /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1057A0141B3C2B3600EDF8D7 /* location@2x.png */; };
+		106122C01BC2AE1D004E9149 /* SCHClientListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 106122BA1BC2AE1D004E9149 /* SCHClientListViewController.m */; };
+		106122C11BC2AE1D004E9149 /* SCHClientListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 106122BB1BC2AE1D004E9149 /* SCHClientListViewController.xib */; };
+		106122C21BC2AE1D004E9149 /* SCHEditAppointmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 106122BC1BC2AE1D004E9149 /* SCHEditAppointmentViewController.m */; };
+		106122C31BC2AE1D004E9149 /* SCHNewAppointmentBySPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 106122BD1BC2AE1D004E9149 /* SCHNewAppointmentBySPViewController.m */; };
+		106122C91BC2AE32004E9149 /* SPGooglePlacesAutocompleteDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 106122C51BC2AE32004E9149 /* SPGooglePlacesAutocompleteDemoViewController.m */; };
+		106122CA1BC2AE32004E9149 /* SPGooglePlacesAutocompleteDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 106122C61BC2AE32004E9149 /* SPGooglePlacesAutocompleteDemoViewController.xib */; };
+		106122CB1BC2AE32004E9149 /* LocationValueTrasformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 106122C81BC2AE32004E9149 /* LocationValueTrasformer.m */; };
+		106122CE1BC2AE48004E9149 /* SCHManageAvailabilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 106122CC1BC2AE48004E9149 /* SCHManageAvailabilityViewController.m */; };
+		106122D11BC2C7E4004E9149 /* SCHNotificationAcknowledgementDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 106122D01BC2C7E4004E9149 /* SCHNotificationAcknowledgementDetailViewController.m */; };
+		106122D41BC2E642004E9149 /* ClientListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 106122D31BC2E642004E9149 /* ClientListTableViewCell.m */; };
+		106122D81BC311D6004E9149 /* ClientValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 106122D71BC311D6004E9149 /* ClientValueTransformer.m */; };
+		106122DA1BC3A118004E9149 /* ClientCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 106122D91BC3A118004E9149 /* ClientCell.xib */; };
+		106122DD1BC3C217004E9149 /* SCHAddClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 106122DC1BC3C217004E9149 /* SCHAddClientViewController.m */; };
+		1069A8D41BE93B2F0024125C /* SCHUpgradeSubscriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1069A8D31BE93B2F0024125C /* SCHUpgradeSubscriptionViewController.m */; };
+		106D1F841B22144E004AB84D /* ReusableUIComponents.xib in Resources */ = {isa = PBXBuildFile; fileRef = 106D1F831B22144E004AB84D /* ReusableUIComponents.xib */; };
+		106D1F871B2214C2004AB84D /* TextViewInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 106D1F861B2214C2004AB84D /* TextViewInputCell.m */; };
+		106D1F8A1B22150E004AB84D /* TextInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 106D1F891B22150E004AB84D /* TextInputCell.m */; };
+		1072761F1BBC7601000FA0A3 /* Icon-Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 107276181BBC7601000FA0A3 /* Icon-Back.png */; };
+		107276201BBC7601000FA0A3 /* Icon-Back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107276191BBC7601000FA0A3 /* Icon-Back@2x.png */; };
+		107276211BBC7601000FA0A3 /* Icon-Back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1072761A1BBC7601000FA0A3 /* Icon-Back@3x.png */; };
+		107276281BBC784E000FA0A3 /* Filter_Black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107276261BBC784E000FA0A3 /* Filter_Black@2x.png */; };
+		107276291BBC784E000FA0A3 /* Filter_Black@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107276271BBC784E000FA0A3 /* Filter_Black@3x.png */; };
+		107460251B7E325900105B98 /* findPros_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 107460231B7E325900105B98 /* findPros_1.png */; };
+		107460261B7E325900105B98 /* findPros_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 107460241B7E325900105B98 /* findPros_2.png */; };
+		107B523C1C401FE30051E01C /* UITabBarController+HideTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 107B523B1C401FE30051E01C /* UITabBarController+HideTabBar.m */; };
+		10926BB41BDFB7D20043F856 /* SCHHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10926BB31BDFB7D20043F856 /* SCHHelpViewController.m */; };
+		10926BB71BDFC2150043F856 /* SCHHelpSuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10926BB61BDFC2150043F856 /* SCHHelpSuggestionViewController.m */; };
+		109291BF1C7CB1B7008CB05A /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 109291BE1C7CB1B7008CB05A /* share.png */; };
+		109630D41B4BAC0B005D554B /* SCHBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109630D31B4BAC0B005D554B /* SCHBookViewController.m */; };
+		109630D71B4BF5E2005D554B /* SCHBookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109630D61B4BF5E2005D554B /* SCHBookDetailViewController.m */; };
+		109DE78E1BC6CF0A00069A4D /* SCHUserServicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109DE78D1BC6CF0A00069A4D /* SCHUserServicesTableViewController.m */; };
+		109DE7911BC6F46100069A4D /* SCHUserClientListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109DE7901BC6F46100069A4D /* SCHUserClientListTableViewController.m */; };
+		10A0F7281BF0E74300044F14 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A0F7271BF0E74300044F14 /* StoreKit.framework */; };
+		10AC82391B73592900DE3D80 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AC82381B73592900DE3D80 /* Twitter.framework */; };
+		10AC823B1B73593000DE3D80 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AC823A1B73593000DE3D80 /* Accounts.framework */; };
+		10AC823D1B735E6200DE3D80 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AC823C1B735E6200DE3D80 /* Social.framework */; };
+		10AC82401B7382BC00DE3D80 /* SCHUserVerificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AC823F1B7382BC00DE3D80 /* SCHUserVerificationViewController.m */; };
+		10ADFED01B7CC11C00E1F73A /* SCHServiceDatailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10ADFECF1B7CC11C00E1F73A /* SCHServiceDatailViewController.m */; };
+		10ADFED31B7CED3200E1F73A /* SCHServiceOfferingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10ADFED21B7CED3200E1F73A /* SCHServiceOfferingViewController.m */; };
+		10ADFEDC1B7CF17300E1F73A /* SCHServiceNewOfferingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10ADFEDB1B7CF17300E1F73A /* SCHServiceNewOfferingsViewController.m */; };
+		10ADFEDF1B7CF52800E1F73A /* SCHServiceOfferingDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10ADFEDE1B7CF52800E1F73A /* SCHServiceOfferingDetailsViewController.m */; };
+		10EBDA2A1BCD8AF8005F40A7 /* mail_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 10EBDA261BCD8AF8005F40A7 /* mail_icon.png */; };
+		10EBDA2B1BCD8AF8005F40A7 /* msg_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 10EBDA271BCD8AF8005F40A7 /* msg_icon.png */; };
+		10EBDA2C1BCD8AF8005F40A7 /* phone_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 10EBDA281BCD8AF8005F40A7 /* phone_icon.png */; };
+		10EBDA301BCD94FC005F40A7 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 10EBDA2D1BCD94FC005F40A7 /* email.png */; };
+		10EBDA311BCD94FC005F40A7 /* service.png in Resources */ = {isa = PBXBuildFile; fileRef = 10EBDA2E1BCD94FC005F40A7 /* service.png */; };
+		10EBDA321BCD94FC005F40A7 /* tag.png in Resources */ = {isa = PBXBuildFile; fileRef = 10EBDA2F1BCD94FC005F40A7 /* tag.png */; };
+		10F951BE1BEB9B8E00324281 /* SCHUserLocationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F951BD1BEB9B8E00324281 /* SCHUserLocationTableViewController.m */; };
+		10F951C71BEBD71300324281 /* SCHHelpTopicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F951C61BEBD71300324281 /* SCHHelpTopicTableViewController.m */; };
+		10F951CA1BEBD94C00324281 /* SCHHelpAgreementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F951C91BEBD94C00324281 /* SCHHelpAgreementViewController.m */; };
+		10FC0CE01C58CF6500FF1D76 /* detail_indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 10FC0CD31C58CF6500FF1D76 /* detail_indicator.png */; };
+		810F13BF1C420ABB00FCACCA /* SCHAppRelease.m in Sources */ = {isa = PBXBuildFile; fileRef = 810F13BE1C420ABB00FCACCA /* SCHAppRelease.m */; };
+		810F13C21C44267500FCACCA /* SCHControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 810F13C11C44267500FCACCA /* SCHControl.m */; };
+		810FC35F1CA819330052A541 /* SCHUserFriendTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810FC35E1CA819330052A541 /* SCHUserFriendTableViewController.m */; };
+		810FC3621CA835990052A541 /* SCHUserFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = 810FC3611CA835990052A541 /* SCHUserFriend.m */; };
+		811217FB1C07840F0094CA02 /* SCHServiceMajorClassification.m in Sources */ = {isa = PBXBuildFile; fileRef = 811217FA1C07840F0094CA02 /* SCHServiceMajorClassification.m */; };
+		81144B021CE562FF00F82A90 /* SCHUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 81144B011CE562FF00F82A90 /* SCHUser.m */; };
+		81148C8A1C9A0A7E000C2E55 /* SCHKeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 81148C891C9A0A7E000C2E55 /* SCHKeychainWrapper.m */; };
+		812069441BBF0DAD00536D73 /* SCHNonUserClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 812069431BBF0DAD00536D73 /* SCHNonUserClient.m */; };
+		81285AC71D19A0AA00E940B7 /* SCHMeeting.m in Sources */ = {isa = PBXBuildFile; fileRef = 81285AC61D19A0AA00E940B7 /* SCHMeeting.m */; };
+		81285ACA1D19A0C700E940B7 /* SCHMeetingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81285AC81D19A0C700E940B7 /* SCHMeetingManager.m */; };
+		812BE9C21C4B393B005CD1F7 /* SCHAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 812BE9C11C4B393B005CD1F7 /* SCHAlert.m */; };
+		813D45911ADA412400BA3F44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 813D45901ADA412400BA3F44 /* main.m */; };
+		813D45941ADA412400BA3F44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 813D45931ADA412400BA3F44 /* AppDelegate.m */; };
+		813D459C1ADA412400BA3F44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813D459B1ADA412400BA3F44 /* Images.xcassets */; };
+		813D459F1ADA412400BA3F44 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813D459D1ADA412400BA3F44 /* LaunchScreen.xib */; };
+		813D45B51ADABCA000BA3F44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813D45B41ADABCA000BA3F44 /* Main.storyboard */; };
+		813D45BE1ADABD4900BA3F44 /* SCHLookup.m in Sources */ = {isa = PBXBuildFile; fileRef = 813D45B91ADABD4900BA3F44 /* SCHLookup.m */; };
+		813D45C81ADABD8E00BA3F44 /* SCHAppointment.m in Sources */ = {isa = PBXBuildFile; fileRef = 813D45C31ADABD8E00BA3F44 /* SCHAppointment.m */; };
+		813D45C91ADABD8E00BA3F44 /* SCHAppointmentActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 813D45C51ADABD8E00BA3F44 /* SCHAppointmentActivity.m */; };
+		813D45D31ADABDCB00BA3F44 /* SCHAvailableTimeBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 813D45CF1ADABDCB00BA3F44 /* SCHAvailableTimeBlock.m */; };
+		813D45DC1ADABE0100BA3F44 /* SCHService.m in Sources */ = {isa = PBXBuildFile; fileRef = 813D45D71ADABE0100BA3F44 /* SCHService.m */; };
+		813D45DD1ADABE0100BA3F44 /* SCHServiceClassification.m in Sources */ = {isa = PBXBuildFile; fileRef = 813D45D91ADABE0100BA3F44 /* SCHServiceClassification.m */; };
+		813D45DE1ADABE0100BA3F44 /* SCHServiceOffering.m in Sources */ = {isa = PBXBuildFile; fileRef = 813D45DB1ADABE0100BA3F44 /* SCHServiceOffering.m */; };
+		813D45EA1ADABF4000BA3F44 /* SCHAddServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813D45E81ADABF4000BA3F44 /* SCHAddServiceViewController.m */; };
+		813D45F01ADAC00000BA3F44 /* SCHUserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813D45ED1ADAC00000BA3F44 /* SCHUserProfileViewController.m */; };
+		813D45F11ADAC00000BA3F44 /* SCHEditUserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813D45EF1ADAC00000BA3F44 /* SCHEditUserProfileViewController.m */; };
+		813D46051ADAC13600BA3F44 /* SCHUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 813D46041ADAC13600BA3F44 /* SCHUtility.m */; };
+		813D46081ADAC59800BA3F44 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813D46071ADAC59800BA3F44 /* AudioToolbox.framework */; };
+		813D460A1ADAC5A600BA3F44 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813D46091ADAC5A600BA3F44 /* CFNetwork.framework */; };
+		813D460C1ADAC5B600BA3F44 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813D460B1ADAC5B600BA3F44 /* CoreGraphics.framework */; };
+		813D460E1ADAC5C800BA3F44 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813D460D1ADAC5C800BA3F44 /* CoreLocation.framework */; };
+		813D46101ADAC5DB00BA3F44 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813D460F1ADAC5DB00BA3F44 /* MobileCoreServices.framework */; };
+		813D46121ADAC5F100BA3F44 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813D46111ADAC5F100BA3F44 /* QuartzCore.framework */; };
+		813D46141ADAC5FF00BA3F44 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813D46131ADAC5FF00BA3F44 /* Security.framework */; };
+		813D46181ADAC63300BA3F44 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813D46171ADAC63300BA3F44 /* SystemConfiguration.framework */; };
+		813D461A1ADAC65900BA3F44 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 813D46191ADAC65900BA3F44 /* libz.dylib */; };
+		813D461C1ADAC67200BA3F44 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 813D461B1ADAC67200BA3F44 /* libsqlite3.dylib */; };
+		813D46231ADAC78C00BA3F44 /* SCHservicePictureTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 813D461F1ADAC78C00BA3F44 /* SCHservicePictureTableViewCell.m */; };
+		813D46241ADAC78C00BA3F44 /* SCHservicePictureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813D46201ADAC78C00BA3F44 /* SCHservicePictureTableViewCell.xib */; };
+		813D46251ADAC78C00BA3F44 /* SCHAddServiceDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 813D46221ADAC78C00BA3F44 /* SCHAddServiceDescription.m */; };
+		814F685B1BD0A72D004A3406 /* SCHPaymentFrequency.m in Sources */ = {isa = PBXBuildFile; fileRef = 814F685A1BD0A72D004A3406 /* SCHPaymentFrequency.m */; };
+		815C59261B4F1C77004103EC /* SCHNewAppointmentByClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C59251B4F1C77004103EC /* SCHNewAppointmentByClientViewController.m */; };
+		815C592C1B548E32004103EC /* SCHAvailabilityForAppointmentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C592B1B548E32004103EC /* SCHAvailabilityForAppointmentManager.m */; };
+		816AE7751BDD448400F3B88A /* SCHActiveViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 816AE7741BDD448400F3B88A /* SCHActiveViewControllers.m */; };
+		816AE77B1BDDB38000F3B88A /* SCHScheduleScreenFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 816AE77A1BDDB38000F3B88A /* SCHScheduleScreenFilter.m */; };
+		816EDFE21B38E912001D38B4 /* SCHNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 816EDFE11B38E912001D38B4 /* SCHNotification.m */; };
+		817B7B9E1B16921F00700F0D /* SCHScheduleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817B7B9D1B16921F00700F0D /* SCHScheduleTableViewController.m */; };
+		817BE3B51B3B92DC001D5EF3 /* SCHAppointmentSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 817BE3B41B3B92DC001D5EF3 /* SCHAppointmentSeries.m */; };
+		817EF6161BB1E9F400FA5DA1 /* SCHUserLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 817EF6151BB1E9F400FA5DA1 /* SCHUserLocation.m */; };
+		818433651B47779100DCA561 /* SCHAvailabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 818433641B47779100DCA561 /* SCHAvailabilityManager.m */; };
+		8184336B1B48056B00DCA561 /* SCHAppointmentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8184336A1B48056B00DCA561 /* SCHAppointmentManager.m */; };
+		818433711B4B452C00DCA561 /* SCHSyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 818433701B4B452C00DCA561 /* SCHSyncManager.m */; };
+		81843FFB1D73C3B600536879 /* SCHTimeBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 81843FFA1D73C3B600536879 /* SCHTimeBlock.m */; };
+		8187CD031D64113C00C33A3A /* SCHPhoneVerificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8187CD021D64113C00C33A3A /* SCHPhoneVerificationViewController.m */; };
+		818D60A61B811B48004B4DD6 /* SCHObjectsForProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = 818D60A51B811B48004B4DD6 /* SCHObjectsForProcessing.m */; };
+		818D60E91B866970004B4DD6 /* SCHBackendCommit.m in Sources */ = {isa = PBXBuildFile; fileRef = 818D60E81B866970004B4DD6 /* SCHBackendCommit.m */; };
+		818F18651BB24243007D1593 /* SCHServiceProviderClientList.m in Sources */ = {isa = PBXBuildFile; fileRef = 818F18641BB24243007D1593 /* SCHServiceProviderClientList.m */; };
+		819155CE1C14D30700FFC34A /* SCHUserFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 819155CD1C14D30700FFC34A /* SCHUserFeedback.m */; };
+		819155D11C15302D00FFC34A /* SCHUserFevoriteService.m in Sources */ = {isa = PBXBuildFile; fileRef = 819155D01C15302D00FFC34A /* SCHUserFevoriteService.m */; };
+		819F68091CDE8F1300B53E3F /* SCHTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 819F68081CDE8F1300B53E3F /* SCHTextAttachment.m */; };
+		81B1BAA31B6B4E3100A0DD1C /* SelectedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B1BAA21B6B4E3100A0DD1C /* SelectedObjects.m */; };
+		81B1BAAD1B6B667A00A0DD1C /* SCHappointmentSummaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B1BAAB1B6B667A00A0DD1C /* SCHappointmentSummaryCell.m */; };
+		81B1BAAE1B6B667A00A0DD1C /* SCHappointmentSummaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81B1BAAC1B6B667A00A0DD1C /* SCHappointmentSummaryCell.xib */; };
+		81BA5F481B9DF426004E295A /* SCHAvailabilityRefreshQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BA5F471B9DF426004E295A /* SCHAvailabilityRefreshQueue.m */; };
+		81BE312F1AE74FFD0083B5E6 /* SCHAvailability.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BE312E1AE74FFD0083B5E6 /* SCHAvailability.m */; };
+		81C3A2B61CC9E2EC00CBD254 /* SCHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C3A2B51CC9E2EC00CBD254 /* SCHHomeViewController.m */; };
+		81C3A2BA1CC9E3BC00CBD254 /* SCHManageBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C3A2B91CC9E3BC00CBD254 /* SCHManageBusinessViewController.m */; };
+		81C763731D283471005F49DE /* SCHEditMeetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C763721D283471005F49DE /* SCHEditMeetupViewController.m */; };
+		81C887841C3C3EAE001B1AEA /* SCHLegalDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C887831C3C3EAE001B1AEA /* SCHLegalDocument.m */; };
+		81CEDF491D653C6200BAF5A5 /* SCHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CEDF481D653C6200BAF5A5 /* SCHLoginViewController.m */; };
+		81CEDF4C1D6A6F1A00BAF5A5 /* SCHResetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CEDF4B1D6A6F1A00BAF5A5 /* SCHResetPasswordViewController.m */; };
+		81CF551B1BED41BF00F0C7E8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CF551A1BED41BF00F0C7E8 /* MessageUI.framework */; };
+		81CF551E1BEDB2F300F0C7E8 /* SCHEmailAndTextMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CF551D1BEDB2F300F0C7E8 /* SCHEmailAndTextMessage.m */; };
+		81D6AF451AEBFE8A00E6BEB4 /* SCHScheduledEventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D6AF441AEBFE8A00E6BEB4 /* SCHScheduledEventManager.m */; };
+		81D6AF4B1AEC039A00E6BEB4 /* SCHEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D6AF4A1AEC039A00E6BEB4 /* SCHEvent.m */; };
+		81D6AF511AEDCEFD00E6BEB4 /* SCHAvailabilityService.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D6AF501AEDCEFD00E6BEB4 /* SCHAvailabilityService.m */; };
+		81D6AF551AF32D2300E6BEB4 /* SCHConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D6AF541AF32D2300E6BEB4 /* SCHConstants.m */; };
+		81D6AF5E1AF7AD1D00E6BEB4 /* SCHBackgroundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D6AF5D1AF7AD1D00E6BEB4 /* SCHBackgroundManager.m */; };
+		81DF5CAD1D2B38ED0057730A /* SCHMeetupChangeRequestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DF5CAC1D2B38ED0057730A /* SCHMeetupChangeRequestTableViewController.m */; };
+		81E97AA91B333470008AB899 /* SCHAvailabilityForAppointment.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E97AA81B333470008AB899 /* SCHAvailabilityForAppointment.m */; };
+		D9F4B629B48815BEC2378D7C /* libPods-CounterBean.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 856234BE20CE1FCAFA809EF0 /* libPods-CounterBean.a */; };
+		DEA0BFF11DA2B548005C6F7D /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA0BFF01DA2B548005C6F7D /* PassKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EB3353681D1C6728004FE711 /* SCHInvitiesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3353671D1C6728004FE711 /* SCHInvitiesListViewController.m */; };
+		EB36453D1CC6906D00613BFD /* SlideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB36453C1CC6906D00613BFD /* SlideMenuViewController.m */; };
+		EB5741041D47B01E008940C4 /* background_img.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5740FE1D47B01E008940C4 /* background_img.png */; };
+		EB5741051D47B01E008940C4 /* email_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5740FF1D47B01E008940C4 /* email_icon.png */; };
+		EB5741061D47B01E008940C4 /* facebook_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5741001D47B01E008940C4 /* facebook_logo.png */; };
+		EB5741071D47B01E008940C4 /* google_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5741011D47B01E008940C4 /* google_logo.png */; };
+		EB5741081D47B01E008940C4 /* line_image.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5741021D47B01E008940C4 /* line_image.png */; };
+		EB5741091D47B01E008940C4 /* password_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5741031D47B01E008940C4 /* password_icon.png */; };
+		EB9212D61D79FB99009B02AE /* back1.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9212D51D79FB99009B02AE /* back1.png */; };
+		EB9212D81D79FBC2009B02AE /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9212D71D79FBC2009B02AE /* back.png */; };
+		EB9F26EC1D14782500D473FE /* SCHConfirmMeetup.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9F26EB1D14782500D473FE /* SCHConfirmMeetup.m */; };
+		EB9F26EE1D1504DB00D473FE /* SCHConfirmMeetup.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB9F26ED1D1504DB00D473FE /* SCHConfirmMeetup.xib */; };
+		EBA0422E1D6E28AA00A7468C /* f.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA0422D1D6E28AA00A7468C /* f.png */; };
+		EBA042301D6E2BC200A7468C /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA0422F1D6E2BC200A7468C /* mail.png */; };
+		EBB4091D1D132FAB00EB0B3B /* SCHMeetupController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB4091C1D132FAB00EB0B3B /* SCHMeetupController.m */; };
+		EBC41BB11CFF685300FCDF51 /* SCHUserAppointmentHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC41BB01CFF685300FCDF51 /* SCHUserAppointmentHistory.m */; };
+		EBCE51E11D2C31890028ECC1 /* appointment.png in Resources */ = {isa = PBXBuildFile; fileRef = EBCE51DD1D2C31890028ECC1 /* appointment.png */; };
+		EBCE51E21D2C31890028ECC1 /* fav.png in Resources */ = {isa = PBXBuildFile; fileRef = EBCE51DE1D2C31890028ECC1 /* fav.png */; };
+		EBCE51E31D2C31890028ECC1 /* History.png in Resources */ = {isa = PBXBuildFile; fileRef = EBCE51DF1D2C31890028ECC1 /* History.png */; };
+		EBCE51E41D2C31890028ECC1 /* Meetup.png in Resources */ = {isa = PBXBuildFile; fileRef = EBCE51E01D2C31890028ECC1 /* Meetup.png */; };
+		EBE5AB021CC960C3007882F4 /* back-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE5AAFE1CC960C3007882F4 /* back-arrow.png */; };
+		EBE5AB031CC960C3007882F4 /* back-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE5AAFF1CC960C3007882F4 /* back-arrow@2x.png */; };
+		EBE5AB041CC960C3007882F4 /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE5AB001CC960C3007882F4 /* menu-icon.png */; };
+		EBE5AB051CC960C3007882F4 /* menu-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE5AB011CC960C3007882F4 /* menu-icon@2x.png */; };
+		EBE85A8B1D2D83A600615C34 /* icon_apointment.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE85A871D2D83A600615C34 /* icon_apointment.png */; };
+		EBE85A8C1D2D83A600615C34 /* icon_fav.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE85A881D2D83A600615C34 /* icon_fav.png */; };
+		EBE85A8D1D2D83A600615C34 /* icon_history.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE85A891D2D83A600615C34 /* icon_history.png */; };
+		EBE85A8E1D2D83A600615C34 /* icon_meetup.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE85A8A1D2D83A600615C34 /* icon_meetup.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		100239A11C0607370036C4BE /* SCHUserClientDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHUserClientDetailViewController.h; path = ManageProfile/SCHUserClientDetailViewController.h; sourceTree = "<group>"; };
+		100239A21C0607370036C4BE /* SCHUserClientDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHUserClientDetailViewController.m; path = ManageProfile/SCHUserClientDetailViewController.m; sourceTree = "<group>"; };
+		10075A681B67A95B00DC622C /* findprosicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = findprosicon.png; path = resource/findprosicon.png; sourceTree = "<group>"; };
+		101457301B7515D400D616EA /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flag.png; path = resource/flag.png; sourceTree = "<group>"; };
+		101FCB4E1B4D74CD0026C0BE /* SCHServiceProviderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHServiceProviderViewController.h; path = BookAppointment/SCHServiceProviderViewController.h; sourceTree = "<group>"; };
+		101FCB4F1B4D74CD0026C0BE /* SCHServiceProviderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHServiceProviderViewController.m; path = BookAppointment/SCHServiceProviderViewController.m; sourceTree = "<group>"; };
+		101FCB511B4D793D0026C0BE /* SCHServiceProviderAvailabilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHServiceProviderAvailabilityViewController.h; path = BookAppointment/SCHServiceProviderAvailabilityViewController.h; sourceTree = "<group>"; };
+		101FCB521B4D793D0026C0BE /* SCHServiceProviderAvailabilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHServiceProviderAvailabilityViewController.m; path = BookAppointment/SCHServiceProviderAvailabilityViewController.m; sourceTree = "<group>"; };
+		1020B4CC1B25E35100EB0A52 /* libPods-IQKeyboardManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-IQKeyboardManager.a"; path = "Pods/../build/Debug-iphoneos/libPods-IQKeyboardManager.a"; sourceTree = "<group>"; };
+		102719611C19CBBD00EE336C /* SCHUserAddNewClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHUserAddNewClientViewController.h; path = MenageProfile/SCHUserAddNewClientViewController.h; sourceTree = "<group>"; };
+		102719621C19CBBD00EE336C /* SCHUserAddNewClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHUserAddNewClientViewController.m; path = MenageProfile/SCHUserAddNewClientViewController.m; sourceTree = "<group>"; };
+		103A970D1B381FEF00BD5EB2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = NetworkUtility/Reachability.h; sourceTree = "<group>"; };
+		103A970E1B381FEF00BD5EB2 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = NetworkUtility/Reachability.m; sourceTree = "<group>"; };
+		103A97121B38999800BD5EB2 /* book@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "book@1x.png"; path = "resource/icon/book@1x.png"; sourceTree = "<group>"; };
+		103A97131B38999800BD5EB2 /* book@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "book@2x.png"; path = "resource/icon/book@2x.png"; sourceTree = "<group>"; };
+		103A97141B38999800BD5EB2 /* book@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "book@3x.png"; path = "resource/icon/book@3x.png"; sourceTree = "<group>"; };
+		103A97151B38999800BD5EB2 /* notification@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "notification@1x.png"; path = "resource/icon/notification@1x.png"; sourceTree = "<group>"; };
+		103A97161B38999800BD5EB2 /* notification@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "notification@2x.png"; path = "resource/icon/notification@2x.png"; sourceTree = "<group>"; };
+		103A97171B38999800BD5EB2 /* notification@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "notification@3x.png"; path = "resource/icon/notification@3x.png"; sourceTree = "<group>"; };
+		103A97181B38999800BD5EB2 /* profile@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile@1x.png"; path = "resource/icon/profile@1x.png"; sourceTree = "<group>"; };
+		103A97191B38999800BD5EB2 /* profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile@2x.png"; path = "resource/icon/profile@2x.png"; sourceTree = "<group>"; };
+		103A971A1B38999800BD5EB2 /* profile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile@3x.png"; path = "resource/icon/profile@3x.png"; sourceTree = "<group>"; };
+		103A971B1B38999800BD5EB2 /* schedule@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "schedule@1x.png"; path = "resource/icon/schedule@1x.png"; sourceTree = "<group>"; };
+		103A971C1B38999800BD5EB2 /* schedule@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "schedule@2x.png"; path = "resource/icon/schedule@2x.png"; sourceTree = "<group>"; };
+		103A971D1B38999800BD5EB2 /* schedule@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "schedule@3x.png"; path = "resource/icon/schedule@3x.png"; sourceTree = "<group>"; };
+		103A97301B38A2BE00BD5EB2 /* help@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "help@1x.png"; path = "resource/icon/help@1x.png"; sourceTree = "<group>"; };
+		103A97311B38A2BE00BD5EB2 /* help@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "help@2x.png"; path = "resource/icon/help@2x.png"; sourceTree = "<group>"; };
+		103A97321B38A2BE00BD5EB2 /* help@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "help@3x.png"; path = "resource/icon/help@3x.png"; sourceTree = "<group>"; };
+		103C0C3C1B42CBBC001D0335 /* btndetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btndetail.png; path = resource/btndetail.png; sourceTree = "<group>"; };
+		103C734C1BA9E0A400A1E367 /* SCHScheduleFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHScheduleFilterViewController.h; sourceTree = "<group>"; };
+		103C734D1BA9E0A400A1E367 /* SCHScheduleFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHScheduleFilterViewController.m; sourceTree = "<group>"; };
+		103DCD1A1BCA6BF900E7C0A7 /* client_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = client_logo.png; path = resource/client_logo.png; sourceTree = "<group>"; };
+		103DCD1D1BCC00A400E7C0A7 /* FDTakeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDTakeController.h; path = "MenageServices/FDTake Controller/FDTakeController.h"; sourceTree = "<group>"; };
+		103DCD1E1BCC00A400E7C0A7 /* FDTakeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDTakeController.m; path = "MenageServices/FDTake Controller/FDTakeController.m"; sourceTree = "<group>"; };
+		10423FCD1C08D0C700D62073 /* SCHMinorClassificationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHMinorClassificationTableViewController.h; sourceTree = "<group>"; };
+		10423FCE1C08D0C700D62073 /* SCHMinorClassificationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHMinorClassificationTableViewController.m; sourceTree = "<group>"; };
+		10460DAC1BDAB11A00D63E41 /* SCHEditServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHEditServiceViewController.h; path = MenageServices/SCHEditServiceViewController.h; sourceTree = "<group>"; };
+		10460DAD1BDAB11A00D63E41 /* SCHEditServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHEditServiceViewController.m; path = MenageServices/SCHEditServiceViewController.m; sourceTree = "<group>"; };
+		10460DB01BDAD87700D63E41 /* SCHEditOfferingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHEditOfferingViewController.h; path = MenageServices/SCHEditOfferingViewController.h; sourceTree = "<group>"; };
+		10460DB11BDAD87700D63E41 /* SCHEditOfferingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHEditOfferingViewController.m; path = MenageServices/SCHEditOfferingViewController.m; sourceTree = "<group>"; };
+		104660A91BD5690300968AC5 /* SCHScheduleClientDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHScheduleClientDetailViewController.h; path = MenageSchedule/SCHScheduleClientDetailViewController.h; sourceTree = "<group>"; };
+		104660AA1BD5690300968AC5 /* SCHScheduleClientDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHScheduleClientDetailViewController.m; path = MenageSchedule/SCHScheduleClientDetailViewController.m; sourceTree = "<group>"; };
+		104A0E1A1B415A9C00C88FEE /* SCHNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHNotificationViewController.h; path = ManageNotification/SCHNotificationViewController.h; sourceTree = "<group>"; };
+		104A0E1B1B415A9C00C88FEE /* SCHNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHNotificationViewController.m; path = ManageNotification/SCHNotificationViewController.m; sourceTree = "<group>"; };
+		104A0E1D1B41950C00C88FEE /* libPods-KVNProgress.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-KVNProgress.a"; path = "Pods/../build/Debug-iphoneos/libPods-KVNProgress.a"; sourceTree = "<group>"; };
+		1051DB5A1BB9A9B600F76D24 /* SCHLocationSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHLocationSelectorViewController.h; path = MenageLocation/SCHLocationSelectorViewController.h; sourceTree = "<group>"; };
+		1051DB5B1BB9A9B600F76D24 /* SCHLocationSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHLocationSelectorViewController.m; path = MenageLocation/SCHLocationSelectorViewController.m; sourceTree = "<group>"; };
+		1051EB541B5E58E30083191F /* SCHScheduleSummeryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHScheduleSummeryViewController.h; sourceTree = "<group>"; };
+		1051EB551B5E58E30083191F /* SCHScheduleSummeryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHScheduleSummeryViewController.m; sourceTree = "<group>"; };
+		10531EB01C4FDFD800AFEC46 /* SCHHelpPrivacyPolicyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHHelpPrivacyPolicyTableViewController.h; path = "Manage Help /SCHHelpPrivacyPolicyTableViewController.h"; sourceTree = "<group>"; };
+		10531EB11C4FDFD800AFEC46 /* SCHHelpPrivacyPolicyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHHelpPrivacyPolicyTableViewController.m; path = "Manage Help /SCHHelpPrivacyPolicyTableViewController.m"; sourceTree = "<group>"; };
+		10531EB31C4FE00200AFEC46 /* SCHHelpTermOfUseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHHelpTermOfUseTableViewController.h; path = "Manage Help /SCHHelpTermOfUseTableViewController.h"; sourceTree = "<group>"; };
+		10531EB41C4FE00200AFEC46 /* SCHHelpTermOfUseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHHelpTermOfUseTableViewController.m; path = "Manage Help /SCHHelpTermOfUseTableViewController.m"; sourceTree = "<group>"; };
+		1057A0111B3C2B3600EDF8D7 /* locateButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = locateButton.png; path = resource/locateButton.png; sourceTree = "<group>"; };
+		1057A0121B3C2B3600EDF8D7 /* locateButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "locateButton@2x.png"; path = "resource/locateButton@2x.png"; sourceTree = "<group>"; };
+		1057A0131B3C2B3600EDF8D7 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location.png; path = resource/location.png; sourceTree = "<group>"; };
+		1057A0141B3C2B3600EDF8D7 /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "location@2x.png"; path = "resource/location@2x.png"; sourceTree = "<group>"; };
+		106122B91BC2AE1D004E9149 /* SCHClientListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHClientListViewController.h; path = ManageAppointment/SCHClientListViewController.h; sourceTree = "<group>"; };
+		106122BA1BC2AE1D004E9149 /* SCHClientListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHClientListViewController.m; path = ManageAppointment/SCHClientListViewController.m; sourceTree = "<group>"; };
+		106122BB1BC2AE1D004E9149 /* SCHClientListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SCHClientListViewController.xib; path = ManageAppointment/SCHClientListViewController.xib; sourceTree = "<group>"; };
+		106122BC1BC2AE1D004E9149 /* SCHEditAppointmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHEditAppointmentViewController.m; path = ManageAppointment/SCHEditAppointmentViewController.m; sourceTree = "<group>"; };
+		106122BD1BC2AE1D004E9149 /* SCHNewAppointmentBySPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHNewAppointmentBySPViewController.m; path = ManageAppointment/SCHNewAppointmentBySPViewController.m; sourceTree = "<group>"; };
+		106122BE1BC2AE1D004E9149 /* SCHEditAppointmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHEditAppointmentViewController.h; path = ManageAppointment/SCHEditAppointmentViewController.h; sourceTree = "<group>"; };
+		106122BF1BC2AE1D004E9149 /* SCHNewAppointmentBySPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHNewAppointmentBySPViewController.h; path = ManageAppointment/SCHNewAppointmentBySPViewController.h; sourceTree = "<group>"; };
+		106122C41BC2AE32004E9149 /* SPGooglePlacesAutocompleteDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPGooglePlacesAutocompleteDemoViewController.h; path = ManageAppointment/googleLocation/SPGooglePlacesAutocompleteDemoViewController.h; sourceTree = "<group>"; };
+		106122C51BC2AE32004E9149 /* SPGooglePlacesAutocompleteDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPGooglePlacesAutocompleteDemoViewController.m; path = ManageAppointment/googleLocation/SPGooglePlacesAutocompleteDemoViewController.m; sourceTree = "<group>"; };
+		106122C61BC2AE32004E9149 /* SPGooglePlacesAutocompleteDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SPGooglePlacesAutocompleteDemoViewController.xib; path = ManageAppointment/googleLocation/SPGooglePlacesAutocompleteDemoViewController.xib; sourceTree = "<group>"; };
+		106122C71BC2AE32004E9149 /* LocationValueTrasformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationValueTrasformer.h; path = ManageAppointment/googleLocation/LocationValueTrasformer.h; sourceTree = "<group>"; };
+		106122C81BC2AE32004E9149 /* LocationValueTrasformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationValueTrasformer.m; path = ManageAppointment/googleLocation/LocationValueTrasformer.m; sourceTree = "<group>"; };
+		106122CC1BC2AE48004E9149 /* SCHManageAvailabilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHManageAvailabilityViewController.m; path = ManageAvailability/SCHManageAvailabilityViewController.m; sourceTree = "<group>"; };
+		106122CD1BC2AE48004E9149 /* SCHManageAvailabilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHManageAvailabilityViewController.h; path = ManageAvailability/SCHManageAvailabilityViewController.h; sourceTree = "<group>"; };
+		106122CF1BC2C7E4004E9149 /* SCHNotificationAcknowledgementDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHNotificationAcknowledgementDetailViewController.h; path = ManageNotification/SCHNotificationAcknowledgementDetailViewController.h; sourceTree = "<group>"; };
+		106122D01BC2C7E4004E9149 /* SCHNotificationAcknowledgementDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHNotificationAcknowledgementDetailViewController.m; path = ManageNotification/SCHNotificationAcknowledgementDetailViewController.m; sourceTree = "<group>"; };
+		106122D21BC2E642004E9149 /* ClientListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientListTableViewCell.h; path = ManageAppointment/CustomCell/ClientListTableViewCell.h; sourceTree = "<group>"; };
+		106122D31BC2E642004E9149 /* ClientListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClientListTableViewCell.m; path = ManageAppointment/CustomCell/ClientListTableViewCell.m; sourceTree = "<group>"; };
+		106122D61BC311D6004E9149 /* ClientValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientValueTransformer.h; path = ManageAppointment/ClientValueTransformer.h; sourceTree = "<group>"; };
+		106122D71BC311D6004E9149 /* ClientValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClientValueTransformer.m; path = ManageAppointment/ClientValueTransformer.m; sourceTree = "<group>"; };
+		106122D91BC3A118004E9149 /* ClientCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ClientCell.xib; path = ManageAppointment/ClientCell.xib; sourceTree = "<group>"; };
+		106122DB1BC3C217004E9149 /* SCHAddClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHAddClientViewController.h; path = ManageAppointment/SCHAddClientViewController.h; sourceTree = "<group>"; };
+		106122DC1BC3C217004E9149 /* SCHAddClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHAddClientViewController.m; path = ManageAppointment/SCHAddClientViewController.m; sourceTree = "<group>"; };
+		1069A8D21BE93B2F0024125C /* SCHUpgradeSubscriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHUpgradeSubscriptionViewController.h; path = ManageProfile/SCHUpgradeSubscriptionViewController.h; sourceTree = "<group>"; };
+		1069A8D31BE93B2F0024125C /* SCHUpgradeSubscriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHUpgradeSubscriptionViewController.m; path = ManageProfile/SCHUpgradeSubscriptionViewController.m; sourceTree = "<group>"; };
+		106D1F831B22144E004AB84D /* ReusableUIComponents.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ReusableUIComponents.xib; path = SCHTableViewCell/ReusableUIComponents.xib; sourceTree = "<group>"; };
+		106D1F851B2214C2004AB84D /* TextViewInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextViewInputCell.h; path = SCHTableViewCell/TextViewInputCell.h; sourceTree = "<group>"; };
+		106D1F861B2214C2004AB84D /* TextViewInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextViewInputCell.m; path = SCHTableViewCell/TextViewInputCell.m; sourceTree = "<group>"; };
+		106D1F881B22150E004AB84D /* TextInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextInputCell.h; path = SCHTableViewCell/TextInputCell.h; sourceTree = "<group>"; };
+		106D1F891B22150E004AB84D /* TextInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextInputCell.m; path = SCHTableViewCell/TextInputCell.m; sourceTree = "<group>"; };
+		107276181BBC7601000FA0A3 /* Icon-Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Back.png"; path = "resource/Icon-Back.png"; sourceTree = "<group>"; };
+		107276191BBC7601000FA0A3 /* Icon-Back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Back@2x.png"; path = "resource/Icon-Back@2x.png"; sourceTree = "<group>"; };
+		1072761A1BBC7601000FA0A3 /* Icon-Back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Back@3x.png"; path = "resource/Icon-Back@3x.png"; sourceTree = "<group>"; };
+		107276261BBC784E000FA0A3 /* Filter_Black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Filter_Black@2x.png"; path = "resource/Filter_Black@2x.png"; sourceTree = "<group>"; };
+		107276271BBC784E000FA0A3 /* Filter_Black@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Filter_Black@3x.png"; path = "resource/Filter_Black@3x.png"; sourceTree = "<group>"; };
+		107460231B7E325900105B98 /* findPros_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = findPros_1.png; path = resource/findPros_1.png; sourceTree = "<group>"; };
+		107460241B7E325900105B98 /* findPros_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = findPros_2.png; path = resource/findPros_2.png; sourceTree = "<group>"; };
+		107B523A1C401FE30051E01C /* UITabBarController+HideTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+HideTabBar.h"; sourceTree = "<group>"; };
+		107B523B1C401FE30051E01C /* UITabBarController+HideTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+HideTabBar.m"; sourceTree = "<group>"; };
+		10926BB21BDFB7D20043F856 /* SCHHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHHelpViewController.h; path = "Manage Help /SCHHelpViewController.h"; sourceTree = "<group>"; };
+		10926BB31BDFB7D20043F856 /* SCHHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHHelpViewController.m; path = "Manage Help /SCHHelpViewController.m"; sourceTree = "<group>"; };
+		10926BB51BDFC2150043F856 /* SCHHelpSuggestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHHelpSuggestionViewController.h; path = "Manage Help /SCHHelpSuggestionViewController.h"; sourceTree = "<group>"; };
+		10926BB61BDFC2150043F856 /* SCHHelpSuggestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHHelpSuggestionViewController.m; path = "Manage Help /SCHHelpSuggestionViewController.m"; sourceTree = "<group>"; };
+		109291BE1C7CB1B7008CB05A /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share.png; path = resource/share.png; sourceTree = "<group>"; };
+		109630D21B4BAC0B005D554B /* SCHBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHBookViewController.h; path = BookAppointment/SCHBookViewController.h; sourceTree = "<group>"; };
+		109630D31B4BAC0B005D554B /* SCHBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHBookViewController.m; path = BookAppointment/SCHBookViewController.m; sourceTree = "<group>"; };
+		109630D51B4BF5E2005D554B /* SCHBookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHBookDetailViewController.h; path = BookAppointment/SCHBookDetailViewController.h; sourceTree = "<group>"; };
+		109630D61B4BF5E2005D554B /* SCHBookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHBookDetailViewController.m; path = BookAppointment/SCHBookDetailViewController.m; sourceTree = "<group>"; };
+		109DE78C1BC6CF0A00069A4D /* SCHUserServicesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHUserServicesTableViewController.h; path = MenageProfile/SCHUserServicesTableViewController.h; sourceTree = "<group>"; };
+		109DE78D1BC6CF0A00069A4D /* SCHUserServicesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHUserServicesTableViewController.m; path = MenageProfile/SCHUserServicesTableViewController.m; sourceTree = "<group>"; };
+		109DE78F1BC6F46100069A4D /* SCHUserClientListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHUserClientListTableViewController.h; path = MenageProfile/SCHUserClientListTableViewController.h; sourceTree = "<group>"; };
+		109DE7901BC6F46100069A4D /* SCHUserClientListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHUserClientListTableViewController.m; path = MenageProfile/SCHUserClientListTableViewController.m; sourceTree = "<group>"; };
+		10A0F7271BF0E74300044F14 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		10AC82381B73592900DE3D80 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		10AC823A1B73593000DE3D80 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		10AC823C1B735E6200DE3D80 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		10AC823E1B7382BC00DE3D80 /* SCHUserVerificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHUserVerificationViewController.h; sourceTree = "<group>"; };
+		10AC823F1B7382BC00DE3D80 /* SCHUserVerificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHUserVerificationViewController.m; sourceTree = "<group>"; };
+		10ADFECE1B7CC11C00E1F73A /* SCHServiceDatailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHServiceDatailViewController.h; path = MenageServices/SCHServiceDatailViewController.h; sourceTree = "<group>"; };
+		10ADFECF1B7CC11C00E1F73A /* SCHServiceDatailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHServiceDatailViewController.m; path = MenageServices/SCHServiceDatailViewController.m; sourceTree = "<group>"; };
+		10ADFED11B7CED3200E1F73A /* SCHServiceOfferingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHServiceOfferingViewController.h; path = MenageServices/SCHServiceOfferingViewController.h; sourceTree = "<group>"; };
+		10ADFED21B7CED3200E1F73A /* SCHServiceOfferingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHServiceOfferingViewController.m; path = MenageServices/SCHServiceOfferingViewController.m; sourceTree = "<group>"; };
+		10ADFEDA1B7CF17300E1F73A /* SCHServiceNewOfferingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHServiceNewOfferingsViewController.h; path = MenageServices/SCHServiceNewOfferingsViewController.h; sourceTree = "<group>"; };
+		10ADFEDB1B7CF17300E1F73A /* SCHServiceNewOfferingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHServiceNewOfferingsViewController.m; path = MenageServices/SCHServiceNewOfferingsViewController.m; sourceTree = "<group>"; };
+		10ADFEDD1B7CF52800E1F73A /* SCHServiceOfferingDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHServiceOfferingDetailsViewController.h; path = MenageServices/SCHServiceOfferingDetailsViewController.h; sourceTree = "<group>"; };
+		10ADFEDE1B7CF52800E1F73A /* SCHServiceOfferingDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHServiceOfferingDetailsViewController.m; path = MenageServices/SCHServiceOfferingDetailsViewController.m; sourceTree = "<group>"; };
+		10EBDA261BCD8AF8005F40A7 /* mail_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mail_icon.png; path = resource/mail_icon.png; sourceTree = "<group>"; };
+		10EBDA271BCD8AF8005F40A7 /* msg_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = msg_icon.png; path = resource/msg_icon.png; sourceTree = "<group>"; };
+		10EBDA281BCD8AF8005F40A7 /* phone_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = phone_icon.png; path = resource/phone_icon.png; sourceTree = "<group>"; };
+		10EBDA2D1BCD94FC005F40A7 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = email.png; path = resource/email.png; sourceTree = "<group>"; };
+		10EBDA2E1BCD94FC005F40A7 /* service.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = service.png; path = resource/service.png; sourceTree = "<group>"; };
+		10EBDA2F1BCD94FC005F40A7 /* tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tag.png; path = resource/tag.png; sourceTree = "<group>"; };
+		10F951BC1BEB9B8E00324281 /* SCHUserLocationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHUserLocationTableViewController.h; path = ManageProfile/SCHUserLocationTableViewController.h; sourceTree = "<group>"; };
+		10F951BD1BEB9B8E00324281 /* SCHUserLocationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHUserLocationTableViewController.m; path = ManageProfile/SCHUserLocationTableViewController.m; sourceTree = "<group>"; };
+		10F951C51BEBD71300324281 /* SCHHelpTopicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHHelpTopicTableViewController.h; path = "Manage Help /SCHHelpTopicTableViewController.h"; sourceTree = "<group>"; };
+		10F951C61BEBD71300324281 /* SCHHelpTopicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHHelpTopicTableViewController.m; path = "Manage Help /SCHHelpTopicTableViewController.m"; sourceTree = "<group>"; };
+		10F951C81BEBD94C00324281 /* SCHHelpAgreementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHHelpAgreementViewController.h; path = "Manage Help /SCHHelpAgreementViewController.h"; sourceTree = "<group>"; };
+		10F951C91BEBD94C00324281 /* SCHHelpAgreementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHHelpAgreementViewController.m; path = "Manage Help /SCHHelpAgreementViewController.m"; sourceTree = "<group>"; };
+		10FC0CD31C58CF6500FF1D76 /* detail_indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detail_indicator.png; path = resource/detail_indicator.png; sourceTree = "<group>"; };
+		810F13BD1C420ABB00FCACCA /* SCHAppRelease.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHAppRelease.h; sourceTree = "<group>"; };
+		810F13BE1C420ABB00FCACCA /* SCHAppRelease.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHAppRelease.m; sourceTree = "<group>"; };
+		810F13C01C44267500FCACCA /* SCHControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHControl.h; sourceTree = "<group>"; };
+		810F13C11C44267500FCACCA /* SCHControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHControl.m; sourceTree = "<group>"; };
+		810FC35D1CA819330052A541 /* SCHUserFriendTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHUserFriendTableViewController.h; sourceTree = "<group>"; };
+		810FC35E1CA819330052A541 /* SCHUserFriendTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHUserFriendTableViewController.m; sourceTree = "<group>"; };
+		810FC3601CA835990052A541 /* SCHUserFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHUserFriend.h; sourceTree = "<group>"; };
+		810FC3611CA835990052A541 /* SCHUserFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHUserFriend.m; sourceTree = "<group>"; };
+		811217F91C07840F0094CA02 /* SCHServiceMajorClassification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHServiceMajorClassification.h; sourceTree = "<group>"; };
+		811217FA1C07840F0094CA02 /* SCHServiceMajorClassification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHServiceMajorClassification.m; sourceTree = "<group>"; };
+		81144B001CE562FF00F82A90 /* SCHUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHUser.h; sourceTree = "<group>"; };
+		81144B011CE562FF00F82A90 /* SCHUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHUser.m; sourceTree = "<group>"; };
+		81148C881C9A0A7E000C2E55 /* SCHKeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHKeychainWrapper.h; sourceTree = "<group>"; };
+		81148C891C9A0A7E000C2E55 /* SCHKeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHKeychainWrapper.m; sourceTree = "<group>"; };
+		812069421BBF0DAD00536D73 /* SCHNonUserClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHNonUserClient.h; sourceTree = "<group>"; };
+		812069431BBF0DAD00536D73 /* SCHNonUserClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHNonUserClient.m; sourceTree = "<group>"; };
+		81285AC51D19A0AA00E940B7 /* SCHMeeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHMeeting.h; sourceTree = "<group>"; };
+		81285AC61D19A0AA00E940B7 /* SCHMeeting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHMeeting.m; sourceTree = "<group>"; };
+		81285AC81D19A0C700E940B7 /* SCHMeetingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHMeetingManager.m; sourceTree = "<group>"; };
+		81285AC91D19A0C700E940B7 /* SCHMeetingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHMeetingManager.h; sourceTree = "<group>"; };
+		812BE9C01C4B393B005CD1F7 /* SCHAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHAlert.h; sourceTree = "<group>"; };
+		812BE9C11C4B393B005CD1F7 /* SCHAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHAlert.m; sourceTree = "<group>"; };
+		813D458B1ADA412400BA3F44 /* CounterBean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CounterBean.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		813D458F1ADA412400BA3F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813D45901ADA412400BA3F44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		813D45921ADA412400BA3F44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		813D45931ADA412400BA3F44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		813D459B1ADA412400BA3F44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		813D459E1ADA412400BA3F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		813D45A91ADA412400BA3F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813D45AA1ADA412400BA3F44 /* findProsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = findProsTests.m; sourceTree = "<group>"; };
+		813D45B41ADABCA000BA3F44 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		813D45B81ADABD4900BA3F44 /* SCHLookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHLookup.h; sourceTree = "<group>"; };
+		813D45B91ADABD4900BA3F44 /* SCHLookup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHLookup.m; sourceTree = "<group>"; };
+		813D45C21ADABD8E00BA3F44 /* SCHAppointment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHAppointment.h; sourceTree = "<group>"; };
+		813D45C31ADABD8E00BA3F44 /* SCHAppointment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHAppointment.m; sourceTree = "<group>"; };
+		813D45C41ADABD8E00BA3F44 /* SCHAppointmentActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHAppointmentActivity.h; sourceTree = "<group>"; };
+		813D45C51ADABD8E00BA3F44 /* SCHAppointmentActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHAppointmentActivity.m; sourceTree = "<group>"; };
+		813D45CE1ADABDCB00BA3F44 /* SCHAvailableTimeBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHAvailableTimeBlock.h; sourceTree = "<group>"; };
+		813D45CF1ADABDCB00BA3F44 /* SCHAvailableTimeBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHAvailableTimeBlock.m; sourceTree = "<group>"; };
+		813D45D61ADABE0100BA3F44 /* SCHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHService.h; sourceTree = "<group>"; };
+		813D45D71ADABE0100BA3F44 /* SCHService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHService.m; sourceTree = "<group>"; };
+		813D45D81ADABE0100BA3F44 /* SCHServiceClassification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHServiceClassification.h; sourceTree = "<group>"; };
+		813D45D91ADABE0100BA3F44 /* SCHServiceClassification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHServiceClassification.m; sourceTree = "<group>"; };
+		813D45DA1ADABE0100BA3F44 /* SCHServiceOffering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHServiceOffering.h; sourceTree = "<group>"; };
+		813D45DB1ADABE0100BA3F44 /* SCHServiceOffering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHServiceOffering.m; sourceTree = "<group>"; };
+		813D45E71ADABF4000BA3F44 /* SCHAddServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHAddServiceViewController.h; sourceTree = "<group>"; };
+		813D45E81ADABF4000BA3F44 /* SCHAddServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHAddServiceViewController.m; sourceTree = "<group>"; };
+		813D45EC1ADAC00000BA3F44 /* SCHUserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHUserProfileViewController.h; sourceTree = "<group>"; };
+		813D45ED1ADAC00000BA3F44 /* SCHUserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHUserProfileViewController.m; sourceTree = "<group>"; };
+		813D45EE1ADAC00000BA3F44 /* SCHEditUserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHEditUserProfileViewController.h; sourceTree = "<group>"; };
+		813D45EF1ADAC00000BA3F44 /* SCHEditUserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHEditUserProfileViewController.m; sourceTree = "<group>"; };
+		813D46031ADAC13600BA3F44 /* SCHUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHUtility.h; sourceTree = "<group>"; };
+		813D46041ADAC13600BA3F44 /* SCHUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHUtility.m; sourceTree = "<group>"; };
+		813D46071ADAC59800BA3F44 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		813D46091ADAC5A600BA3F44 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		813D460B1ADAC5B600BA3F44 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		813D460D1ADAC5C800BA3F44 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		813D460F1ADAC5DB00BA3F44 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		813D46111ADAC5F100BA3F44 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		813D46131ADAC5FF00BA3F44 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		813D46171ADAC63300BA3F44 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		813D46191ADAC65900BA3F44 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		813D461B1ADAC67200BA3F44 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		813D461E1ADAC78C00BA3F44 /* SCHservicePictureTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHservicePictureTableViewCell.h; sourceTree = "<group>"; };
+		813D461F1ADAC78C00BA3F44 /* SCHservicePictureTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHservicePictureTableViewCell.m; sourceTree = "<group>"; };
+		813D46201ADAC78C00BA3F44 /* SCHservicePictureTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCHservicePictureTableViewCell.xib; sourceTree = "<group>"; };
+		813D46211ADAC78C00BA3F44 /* SCHAddServiceDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHAddServiceDescription.h; sourceTree = "<group>"; };
+		813D46221ADAC78C00BA3F44 /* SCHAddServiceDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHAddServiceDescription.m; sourceTree = "<group>"; };
+		814F68591BD0A72D004A3406 /* SCHPaymentFrequency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHPaymentFrequency.h; sourceTree = "<group>"; };
+		814F685A1BD0A72D004A3406 /* SCHPaymentFrequency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHPaymentFrequency.m; sourceTree = "<group>"; };
+		815C59241B4F1C77004103EC /* SCHNewAppointmentByClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHNewAppointmentByClientViewController.h; sourceTree = "<group>"; };
+		815C59251B4F1C77004103EC /* SCHNewAppointmentByClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHNewAppointmentByClientViewController.m; sourceTree = "<group>"; };
+		815C592A1B548E32004103EC /* SCHAvailabilityForAppointmentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHAvailabilityForAppointmentManager.h; sourceTree = "<group>"; };
+		815C592B1B548E32004103EC /* SCHAvailabilityForAppointmentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHAvailabilityForAppointmentManager.m; sourceTree = "<group>"; };
+		816AE7731BDD448400F3B88A /* SCHActiveViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHActiveViewControllers.h; sourceTree = "<group>"; };
+		816AE7741BDD448400F3B88A /* SCHActiveViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHActiveViewControllers.m; sourceTree = "<group>"; };
+		816AE7791BDDB38000F3B88A /* SCHScheduleScreenFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHScheduleScreenFilter.h; sourceTree = "<group>"; };
+		816AE77A1BDDB38000F3B88A /* SCHScheduleScreenFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHScheduleScreenFilter.m; sourceTree = "<group>"; };
+		816EDFE01B38E912001D38B4 /* SCHNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHNotification.h; sourceTree = "<group>"; };
+		816EDFE11B38E912001D38B4 /* SCHNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHNotification.m; sourceTree = "<group>"; };
+		817B7B9C1B16921F00700F0D /* SCHScheduleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHScheduleTableViewController.h; sourceTree = "<group>"; };
+		817B7B9D1B16921F00700F0D /* SCHScheduleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHScheduleTableViewController.m; sourceTree = "<group>"; };
+		817BE3B31B3B92DC001D5EF3 /* SCHAppointmentSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHAppointmentSeries.h; sourceTree = "<group>"; };
+		817BE3B41B3B92DC001D5EF3 /* SCHAppointmentSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHAppointmentSeries.m; sourceTree = "<group>"; };
+		817EF6141BB1E9F400FA5DA1 /* SCHUserLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHUserLocation.h; sourceTree = "<group>"; };
+		817EF6151BB1E9F400FA5DA1 /* SCHUserLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHUserLocation.m; sourceTree = "<group>"; };
+		818433631B47779100DCA561 /* SCHAvailabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHAvailabilityManager.h; sourceTree = "<group>"; };
+		818433641B47779100DCA561 /* SCHAvailabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHAvailabilityManager.m; sourceTree = "<group>"; };
+		818433691B48056B00DCA561 /* SCHAppointmentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHAppointmentManager.h; sourceTree = "<group>"; };
+		8184336A1B48056B00DCA561 /* SCHAppointmentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHAppointmentManager.m; sourceTree = "<group>"; };
+		8184336F1B4B452C00DCA561 /* SCHSyncManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHSyncManager.h; sourceTree = "<group>"; };
+		818433701B4B452C00DCA561 /* SCHSyncManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHSyncManager.m; sourceTree = "<group>"; };
+		81843FF91D73C3B600536879 /* SCHTimeBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHTimeBlock.h; sourceTree = "<group>"; };
+		81843FFA1D73C3B600536879 /* SCHTimeBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHTimeBlock.m; sourceTree = "<group>"; };
+		8187CD011D64113C00C33A3A /* SCHPhoneVerificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHPhoneVerificationViewController.h; sourceTree = "<group>"; };
+		8187CD021D64113C00C33A3A /* SCHPhoneVerificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHPhoneVerificationViewController.m; sourceTree = "<group>"; };
+		818D60A41B811B48004B4DD6 /* SCHObjectsForProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHObjectsForProcessing.h; sourceTree = "<group>"; };
+		818D60A51B811B48004B4DD6 /* SCHObjectsForProcessing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHObjectsForProcessing.m; sourceTree = "<group>"; };
+		818D60E71B866970004B4DD6 /* SCHBackendCommit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHBackendCommit.h; sourceTree = "<group>"; };
+		818D60E81B866970004B4DD6 /* SCHBackendCommit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHBackendCommit.m; sourceTree = "<group>"; };
+		818F18631BB24243007D1593 /* SCHServiceProviderClientList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHServiceProviderClientList.h; sourceTree = "<group>"; };
+		818F18641BB24243007D1593 /* SCHServiceProviderClientList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHServiceProviderClientList.m; sourceTree = "<group>"; };
+		819155CC1C14D30700FFC34A /* SCHUserFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHUserFeedback.h; sourceTree = "<group>"; };
+		819155CD1C14D30700FFC34A /* SCHUserFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHUserFeedback.m; sourceTree = "<group>"; };
+		819155CF1C15302D00FFC34A /* SCHUserFevoriteService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHUserFevoriteService.h; sourceTree = "<group>"; };
+		819155D01C15302D00FFC34A /* SCHUserFevoriteService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHUserFevoriteService.m; sourceTree = "<group>"; };
+		819F68071CDE8F1300B53E3F /* SCHTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHTextAttachment.h; sourceTree = "<group>"; };
+		819F68081CDE8F1300B53E3F /* SCHTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHTextAttachment.m; sourceTree = "<group>"; };
+		819F680A1CDFDC8900B53E3F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		81B1BAA11B6B4E3100A0DD1C /* SelectedObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedObjects.h; sourceTree = "<group>"; };
+		81B1BAA21B6B4E3100A0DD1C /* SelectedObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedObjects.m; sourceTree = "<group>"; };
+		81B1BAAA1B6B667A00A0DD1C /* SCHappointmentSummaryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHappointmentSummaryCell.h; sourceTree = "<group>"; };
+		81B1BAAB1B6B667A00A0DD1C /* SCHappointmentSummaryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHappointmentSummaryCell.m; sourceTree = "<group>"; };
+		81B1BAAC1B6B667A00A0DD1C /* SCHappointmentSummaryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCHappointmentSummaryCell.xib; sourceTree = "<group>"; };
+		81BA5F461B9DF426004E295A /* SCHAvailabilityRefreshQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHAvailabilityRefreshQueue.h; sourceTree = "<group>"; };
+		81BA5F471B9DF426004E295A /* SCHAvailabilityRefreshQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHAvailabilityRefreshQueue.m; sourceTree = "<group>"; };
+		81BE312D1AE74FFD0083B5E6 /* SCHAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHAvailability.h; sourceTree = "<group>"; };
+		81BE312E1AE74FFD0083B5E6 /* SCHAvailability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHAvailability.m; sourceTree = "<group>"; };
+		81C3A2B41CC9E2EC00CBD254 /* SCHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHHomeViewController.h; sourceTree = "<group>"; };
+		81C3A2B51CC9E2EC00CBD254 /* SCHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHHomeViewController.m; sourceTree = "<group>"; };
+		81C3A2B81CC9E3BC00CBD254 /* SCHManageBusinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHManageBusinessViewController.h; sourceTree = "<group>"; };
+		81C3A2B91CC9E3BC00CBD254 /* SCHManageBusinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHManageBusinessViewController.m; sourceTree = "<group>"; };
+		81C763711D283471005F49DE /* SCHEditMeetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHEditMeetupViewController.h; sourceTree = "<group>"; };
+		81C763721D283471005F49DE /* SCHEditMeetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHEditMeetupViewController.m; sourceTree = "<group>"; };
+		81C887821C3C3EAE001B1AEA /* SCHLegalDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHLegalDocument.h; sourceTree = "<group>"; };
+		81C887831C3C3EAE001B1AEA /* SCHLegalDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHLegalDocument.m; sourceTree = "<group>"; };
+		81CEDF471D653C6200BAF5A5 /* SCHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHLoginViewController.h; sourceTree = "<group>"; };
+		81CEDF481D653C6200BAF5A5 /* SCHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHLoginViewController.m; sourceTree = "<group>"; };
+		81CEDF4A1D6A6F1A00BAF5A5 /* SCHResetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHResetPasswordViewController.h; sourceTree = "<group>"; };
+		81CEDF4B1D6A6F1A00BAF5A5 /* SCHResetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHResetPasswordViewController.m; sourceTree = "<group>"; };
+		81CF551A1BED41BF00F0C7E8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		81CF551C1BEDB2F300F0C7E8 /* SCHEmailAndTextMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHEmailAndTextMessage.h; sourceTree = "<group>"; };
+		81CF551D1BEDB2F300F0C7E8 /* SCHEmailAndTextMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHEmailAndTextMessage.m; sourceTree = "<group>"; };
+		81D6AF431AEBFE8A00E6BEB4 /* SCHScheduledEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHScheduledEventManager.h; sourceTree = "<group>"; };
+		81D6AF441AEBFE8A00E6BEB4 /* SCHScheduledEventManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHScheduledEventManager.m; sourceTree = "<group>"; };
+		81D6AF491AEC039A00E6BEB4 /* SCHEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHEvent.h; sourceTree = "<group>"; };
+		81D6AF4A1AEC039A00E6BEB4 /* SCHEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHEvent.m; sourceTree = "<group>"; };
+		81D6AF4F1AEDCEFD00E6BEB4 /* SCHAvailabilityService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHAvailabilityService.h; sourceTree = "<group>"; };
+		81D6AF501AEDCEFD00E6BEB4 /* SCHAvailabilityService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHAvailabilityService.m; sourceTree = "<group>"; };
+		81D6AF531AF32D2300E6BEB4 /* SCHConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHConstants.h; sourceTree = "<group>"; };
+		81D6AF541AF32D2300E6BEB4 /* SCHConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHConstants.m; sourceTree = "<group>"; };
+		81D6AF5C1AF7AD1D00E6BEB4 /* SCHBackgroundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHBackgroundManager.h; sourceTree = "<group>"; };
+		81D6AF5D1AF7AD1D00E6BEB4 /* SCHBackgroundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHBackgroundManager.m; sourceTree = "<group>"; };
+		81DF5CAB1D2B38ED0057730A /* SCHMeetupChangeRequestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHMeetupChangeRequestTableViewController.h; sourceTree = "<group>"; };
+		81DF5CAC1D2B38ED0057730A /* SCHMeetupChangeRequestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHMeetupChangeRequestTableViewController.m; sourceTree = "<group>"; };
+		81E97AA71B333470008AB899 /* SCHAvailabilityForAppointment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHAvailabilityForAppointment.h; sourceTree = "<group>"; };
+		81E97AA81B333470008AB899 /* SCHAvailabilityForAppointment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHAvailabilityForAppointment.m; sourceTree = "<group>"; };
+		856234BE20CE1FCAFA809EF0 /* libPods-CounterBean.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CounterBean.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA43AF892CBACB04049EE0F4 /* Pods-CounterBean.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CounterBean.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CounterBean/Pods-CounterBean.debug.xcconfig"; sourceTree = "<group>"; };
+		C4410AD1BB85F5E29592FF65 /* Pods-CounterBean.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CounterBean.release.xcconfig"; path = "Pods/Target Support Files/Pods-CounterBean/Pods-CounterBean.release.xcconfig"; sourceTree = "<group>"; };
+		DE9008AF1D9AF647003C2C07 /* CounterBean.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CounterBean.entitlements; sourceTree = SOURCE_ROOT; };
+		DEA0BFF01DA2B548005C6F7D /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		EB3353661D1C6728004FE711 /* SCHInvitiesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHInvitiesListViewController.h; path = MenageSchedule/SCHInvitiesListViewController.h; sourceTree = "<group>"; };
+		EB3353671D1C6728004FE711 /* SCHInvitiesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHInvitiesListViewController.m; path = MenageSchedule/SCHInvitiesListViewController.m; sourceTree = "<group>"; };
+		EB36453B1CC6906D00613BFD /* SlideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideMenuViewController.h; path = MenageSchedule/SlideMenuViewController.h; sourceTree = "<group>"; };
+		EB36453C1CC6906D00613BFD /* SlideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideMenuViewController.m; path = MenageSchedule/SlideMenuViewController.m; sourceTree = "<group>"; };
+		EB5740FE1D47B01E008940C4 /* background_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_img.png; path = resource/background_img.png; sourceTree = "<group>"; };
+		EB5740FF1D47B01E008940C4 /* email_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = email_icon.png; path = resource/email_icon.png; sourceTree = "<group>"; };
+		EB5741001D47B01E008940C4 /* facebook_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook_logo.png; path = resource/facebook_logo.png; sourceTree = "<group>"; };
+		EB5741011D47B01E008940C4 /* google_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = google_logo.png; path = resource/google_logo.png; sourceTree = "<group>"; };
+		EB5741021D47B01E008940C4 /* line_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = line_image.png; path = resource/line_image.png; sourceTree = "<group>"; };
+		EB5741031D47B01E008940C4 /* password_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = password_icon.png; path = resource/password_icon.png; sourceTree = "<group>"; };
+		EB9212D51D79FB99009B02AE /* back1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back1.png; path = resource/back1.png; sourceTree = "<group>"; };
+		EB9212D71D79FBC2009B02AE /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = resource/back.png; sourceTree = "<group>"; };
+		EB9F26EA1D14782500D473FE /* SCHConfirmMeetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHConfirmMeetup.h; path = MenageSchedule/SCHConfirmMeetup.h; sourceTree = "<group>"; };
+		EB9F26EB1D14782500D473FE /* SCHConfirmMeetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHConfirmMeetup.m; path = MenageSchedule/SCHConfirmMeetup.m; sourceTree = "<group>"; };
+		EB9F26ED1D1504DB00D473FE /* SCHConfirmMeetup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SCHConfirmMeetup.xib; path = MenageSchedule/SCHConfirmMeetup.xib; sourceTree = "<group>"; };
+		EBA0422D1D6E28AA00A7468C /* f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = f.png; path = resource/f.png; sourceTree = "<group>"; };
+		EBA0422F1D6E2BC200A7468C /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mail.png; path = resource/mail.png; sourceTree = "<group>"; };
+		EBB4091B1D132F9700EB0B3B /* SCHMeetupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHMeetupController.h; path = MenageSchedule/SCHMeetupController.h; sourceTree = "<group>"; };
+		EBB4091C1D132FAB00EB0B3B /* SCHMeetupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHMeetupController.m; path = MenageSchedule/SCHMeetupController.m; sourceTree = "<group>"; };
+		EBC41BAF1CFF685300FCDF51 /* SCHUserAppointmentHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHUserAppointmentHistory.h; path = MenageProfile/SCHUserAppointmentHistory.h; sourceTree = "<group>"; };
+		EBC41BB01CFF685300FCDF51 /* SCHUserAppointmentHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHUserAppointmentHistory.m; path = MenageProfile/SCHUserAppointmentHistory.m; sourceTree = "<group>"; };
+		EBCE51DD1D2C31890028ECC1 /* appointment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appointment.png; path = resource/appointment.png; sourceTree = "<group>"; };
+		EBCE51DE1D2C31890028ECC1 /* fav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fav.png; path = resource/fav.png; sourceTree = "<group>"; };
+		EBCE51DF1D2C31890028ECC1 /* History.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = History.png; path = resource/History.png; sourceTree = "<group>"; };
+		EBCE51E01D2C31890028ECC1 /* Meetup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Meetup.png; path = resource/Meetup.png; sourceTree = "<group>"; };
+		EBE5AAFE1CC960C3007882F4 /* back-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back-arrow.png"; path = "resource/back-arrow.png"; sourceTree = "<group>"; };
+		EBE5AAFF1CC960C3007882F4 /* back-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back-arrow@2x.png"; path = "resource/back-arrow@2x.png"; sourceTree = "<group>"; };
+		EBE5AB001CC960C3007882F4 /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu-icon.png"; path = "resource/menu-icon.png"; sourceTree = "<group>"; };
+		EBE5AB011CC960C3007882F4 /* menu-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu-icon@2x.png"; path = "resource/menu-icon@2x.png"; sourceTree = "<group>"; };
+		EBE85A871D2D83A600615C34 /* icon_apointment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_apointment.png; path = resource/icon_apointment.png; sourceTree = "<group>"; };
+		EBE85A881D2D83A600615C34 /* icon_fav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_fav.png; path = resource/icon_fav.png; sourceTree = "<group>"; };
+		EBE85A891D2D83A600615C34 /* icon_history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_history.png; path = resource/icon_history.png; sourceTree = "<group>"; };
+		EBE85A8A1D2D83A600615C34 /* icon_meetup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_meetup.png; path = resource/icon_meetup.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		813D45881ADA412300BA3F44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA0BFF11DA2B548005C6F7D /* PassKit.framework in Frameworks */,
+				81CF551B1BED41BF00F0C7E8 /* MessageUI.framework in Frameworks */,
+				10AC823D1B735E6200DE3D80 /* Social.framework in Frameworks */,
+				10AC823B1B73593000DE3D80 /* Accounts.framework in Frameworks */,
+				10A0F7281BF0E74300044F14 /* StoreKit.framework in Frameworks */,
+				10AC82391B73592900DE3D80 /* Twitter.framework in Frameworks */,
+				813D461C1ADAC67200BA3F44 /* libsqlite3.dylib in Frameworks */,
+				813D461A1ADAC65900BA3F44 /* libz.dylib in Frameworks */,
+				813D46181ADAC63300BA3F44 /* SystemConfiguration.framework in Frameworks */,
+				813D46141ADAC5FF00BA3F44 /* Security.framework in Frameworks */,
+				813D46121ADAC5F100BA3F44 /* QuartzCore.framework in Frameworks */,
+				813D46101ADAC5DB00BA3F44 /* MobileCoreServices.framework in Frameworks */,
+				813D460E1ADAC5C800BA3F44 /* CoreLocation.framework in Frameworks */,
+				813D460C1ADAC5B600BA3F44 /* CoreGraphics.framework in Frameworks */,
+				813D460A1ADAC5A600BA3F44 /* CFNetwork.framework in Frameworks */,
+				813D46081ADAC59800BA3F44 /* AudioToolbox.framework in Frameworks */,
+				D9F4B629B48815BEC2378D7C /* libPods-CounterBean.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		103A970C1B381FB800BD5EB2 /* Network Utility */ = {
+			isa = PBXGroup;
+			children = (
+				103A970D1B381FEF00BD5EB2 /* Reachability.h */,
+				103A970E1B381FEF00BD5EB2 /* Reachability.m */,
+			);
+			name = "Network Utility";
+			sourceTree = "<group>";
+		};
+		103A97101B38998600BD5EB2 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				EB9212D71D79FBC2009B02AE /* back.png */,
+				EB9212D51D79FB99009B02AE /* back1.png */,
+				EBA0422F1D6E2BC200A7468C /* mail.png */,
+				EBA0422D1D6E28AA00A7468C /* f.png */,
+				EB5740FE1D47B01E008940C4 /* background_img.png */,
+				EB5740FF1D47B01E008940C4 /* email_icon.png */,
+				EB5741001D47B01E008940C4 /* facebook_logo.png */,
+				EB5741011D47B01E008940C4 /* google_logo.png */,
+				EB5741021D47B01E008940C4 /* line_image.png */,
+				EB5741031D47B01E008940C4 /* password_icon.png */,
+				EBE85A871D2D83A600615C34 /* icon_apointment.png */,
+				EBE85A881D2D83A600615C34 /* icon_fav.png */,
+				EBE85A891D2D83A600615C34 /* icon_history.png */,
+				EBE85A8A1D2D83A600615C34 /* icon_meetup.png */,
+				EBCE51DD1D2C31890028ECC1 /* appointment.png */,
+				EBCE51DE1D2C31890028ECC1 /* fav.png */,
+				EBCE51DF1D2C31890028ECC1 /* History.png */,
+				EBCE51E01D2C31890028ECC1 /* Meetup.png */,
+				EBE5AAFE1CC960C3007882F4 /* back-arrow.png */,
+				EBE5AAFF1CC960C3007882F4 /* back-arrow@2x.png */,
+				EBE5AB001CC960C3007882F4 /* menu-icon.png */,
+				EBE5AB011CC960C3007882F4 /* menu-icon@2x.png */,
+				109291BE1C7CB1B7008CB05A /* share.png */,
+				10FC0CD31C58CF6500FF1D76 /* detail_indicator.png */,
+				10EBDA2D1BCD94FC005F40A7 /* email.png */,
+				10EBDA2E1BCD94FC005F40A7 /* service.png */,
+				10EBDA2F1BCD94FC005F40A7 /* tag.png */,
+				10EBDA261BCD8AF8005F40A7 /* mail_icon.png */,
+				10EBDA271BCD8AF8005F40A7 /* msg_icon.png */,
+				10EBDA281BCD8AF8005F40A7 /* phone_icon.png */,
+				103DCD1A1BCA6BF900E7C0A7 /* client_logo.png */,
+				107276261BBC784E000FA0A3 /* Filter_Black@2x.png */,
+				107276271BBC784E000FA0A3 /* Filter_Black@3x.png */,
+				107276181BBC7601000FA0A3 /* Icon-Back.png */,
+				107276191BBC7601000FA0A3 /* Icon-Back@2x.png */,
+				1072761A1BBC7601000FA0A3 /* Icon-Back@3x.png */,
+				107460231B7E325900105B98 /* findPros_1.png */,
+				107460241B7E325900105B98 /* findPros_2.png */,
+				101457301B7515D400D616EA /* flag.png */,
+				10075A681B67A95B00DC622C /* findprosicon.png */,
+				103C0C3C1B42CBBC001D0335 /* btndetail.png */,
+				1057A0111B3C2B3600EDF8D7 /* locateButton.png */,
+				1057A0121B3C2B3600EDF8D7 /* locateButton@2x.png */,
+				1057A0131B3C2B3600EDF8D7 /* location.png */,
+				1057A0141B3C2B3600EDF8D7 /* location@2x.png */,
+				103A97111B38998D00BD5EB2 /* icon */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+		103A97111B38998D00BD5EB2 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				103A97301B38A2BE00BD5EB2 /* help@1x.png */,
+				103A97311B38A2BE00BD5EB2 /* help@2x.png */,
+				103A97321B38A2BE00BD5EB2 /* help@3x.png */,
+				103A97121B38999800BD5EB2 /* book@1x.png */,
+				103A97131B38999800BD5EB2 /* book@2x.png */,
+				103A97141B38999800BD5EB2 /* book@3x.png */,
+				103A97151B38999800BD5EB2 /* notification@1x.png */,
+				103A97161B38999800BD5EB2 /* notification@2x.png */,
+				103A97171B38999800BD5EB2 /* notification@3x.png */,
+				103A97181B38999800BD5EB2 /* profile@1x.png */,
+				103A97191B38999800BD5EB2 /* profile@2x.png */,
+				103A971A1B38999800BD5EB2 /* profile@3x.png */,
+				103A971B1B38999800BD5EB2 /* schedule@1x.png */,
+				103A971C1B38999800BD5EB2 /* schedule@2x.png */,
+				103A971D1B38999800BD5EB2 /* schedule@3x.png */,
+			);
+			name = icon;
+			sourceTree = "<group>";
+		};
+		103DCD1C1BCC008800E7C0A7 /* Photo Picker */ = {
+			isa = PBXGroup;
+			children = (
+				103DCD1D1BCC00A400E7C0A7 /* FDTakeController.h */,
+				103DCD1E1BCC00A400E7C0A7 /* FDTakeController.m */,
+			);
+			name = "Photo Picker";
+			sourceTree = "<group>";
+		};
+		10460DAB1BDAB0F400D63E41 /* Edit Service */ = {
+			isa = PBXGroup;
+			children = (
+				10460DAC1BDAB11A00D63E41 /* SCHEditServiceViewController.h */,
+				10460DAD1BDAB11A00D63E41 /* SCHEditServiceViewController.m */,
+			);
+			name = "Edit Service";
+			sourceTree = "<group>";
+		};
+		10460DAF1BDAD85B00D63E41 /* Edit Offering */ = {
+			isa = PBXGroup;
+			children = (
+				10460DB01BDAD87700D63E41 /* SCHEditOfferingViewController.h */,
+				10460DB11BDAD87700D63E41 /* SCHEditOfferingViewController.m */,
+			);
+			name = "Edit Offering";
+			sourceTree = "<group>";
+		};
+		104A0E191B415A0600C88FEE /* ManageNotification */ = {
+			isa = PBXGroup;
+			children = (
+				106122CF1BC2C7E4004E9149 /* SCHNotificationAcknowledgementDetailViewController.h */,
+				106122D01BC2C7E4004E9149 /* SCHNotificationAcknowledgementDetailViewController.m */,
+				104A0E1A1B415A9C00C88FEE /* SCHNotificationViewController.h */,
+				104A0E1B1B415A9C00C88FEE /* SCHNotificationViewController.m */,
+			);
+			name = ManageNotification;
+			sourceTree = "<group>";
+		};
+		1051FBA91B8341EE002212E6 /* Service Detail */ = {
+			isa = PBXGroup;
+			children = (
+				10ADFECE1B7CC11C00E1F73A /* SCHServiceDatailViewController.h */,
+				10ADFECF1B7CC11C00E1F73A /* SCHServiceDatailViewController.m */,
+			);
+			name = "Service Detail";
+			sourceTree = "<group>";
+		};
+		1051FBAA1B83422D002212E6 /* Service Offering */ = {
+			isa = PBXGroup;
+			children = (
+				10ADFED11B7CED3200E1F73A /* SCHServiceOfferingViewController.h */,
+				10ADFED21B7CED3200E1F73A /* SCHServiceOfferingViewController.m */,
+			);
+			name = "Service Offering";
+			sourceTree = "<group>";
+		};
+		1051FBAB1B834252002212E6 /* New Service Offering */ = {
+			isa = PBXGroup;
+			children = (
+				10ADFEDA1B7CF17300E1F73A /* SCHServiceNewOfferingsViewController.h */,
+				10ADFEDB1B7CF17300E1F73A /* SCHServiceNewOfferingsViewController.m */,
+			);
+			name = "New Service Offering";
+			sourceTree = "<group>";
+		};
+		1051FBAC1B834268002212E6 /* Service Offering Details */ = {
+			isa = PBXGroup;
+			children = (
+				10ADFEDD1B7CF52800E1F73A /* SCHServiceOfferingDetailsViewController.h */,
+				10ADFEDE1B7CF52800E1F73A /* SCHServiceOfferingDetailsViewController.m */,
+			);
+			name = "Service Offering Details";
+			sourceTree = "<group>";
+		};
+		1057A00B1B3C09B400EDF8D7 /* googleLocation */ = {
+			isa = PBXGroup;
+			children = (
+				106122C41BC2AE32004E9149 /* SPGooglePlacesAutocompleteDemoViewController.h */,
+				106122C51BC2AE32004E9149 /* SPGooglePlacesAutocompleteDemoViewController.m */,
+				106122C61BC2AE32004E9149 /* SPGooglePlacesAutocompleteDemoViewController.xib */,
+				106122C71BC2AE32004E9149 /* LocationValueTrasformer.h */,
+				106122C81BC2AE32004E9149 /* LocationValueTrasformer.m */,
+			);
+			name = googleLocation;
+			sourceTree = "<group>";
+		};
+		106D1F511B217A0B004AB84D /* SCHTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				106D1F881B22150E004AB84D /* TextInputCell.h */,
+				106D1F891B22150E004AB84D /* TextInputCell.m */,
+				106D1F851B2214C2004AB84D /* TextViewInputCell.h */,
+				106D1F861B2214C2004AB84D /* TextViewInputCell.m */,
+				106D1F831B22144E004AB84D /* ReusableUIComponents.xib */,
+			);
+			name = SCHTableViewCell;
+			sourceTree = "<group>";
+		};
+		10926BAE1BDFB71C0043F856 /* Help  */ = {
+			isa = PBXGroup;
+			children = (
+				10926BB21BDFB7D20043F856 /* SCHHelpViewController.h */,
+				10926BB31BDFB7D20043F856 /* SCHHelpViewController.m */,
+				10F951C51BEBD71300324281 /* SCHHelpTopicTableViewController.h */,
+				10F951C61BEBD71300324281 /* SCHHelpTopicTableViewController.m */,
+			);
+			name = "Help ";
+			sourceTree = "<group>";
+		};
+		109630D11B4BAB8B005D554B /* BookAppointment */ = {
+			isa = PBXGroup;
+			children = (
+				109630D21B4BAC0B005D554B /* SCHBookViewController.h */,
+				109630D31B4BAC0B005D554B /* SCHBookViewController.m */,
+				10423FCD1C08D0C700D62073 /* SCHMinorClassificationTableViewController.h */,
+				10423FCE1C08D0C700D62073 /* SCHMinorClassificationTableViewController.m */,
+				109630D51B4BF5E2005D554B /* SCHBookDetailViewController.h */,
+				109630D61B4BF5E2005D554B /* SCHBookDetailViewController.m */,
+				101FCB4E1B4D74CD0026C0BE /* SCHServiceProviderViewController.h */,
+				101FCB4F1B4D74CD0026C0BE /* SCHServiceProviderViewController.m */,
+				101FCB511B4D793D0026C0BE /* SCHServiceProviderAvailabilityViewController.h */,
+				101FCB521B4D793D0026C0BE /* SCHServiceProviderAvailabilityViewController.m */,
+				815C59241B4F1C77004103EC /* SCHNewAppointmentByClientViewController.h */,
+				815C59251B4F1C77004103EC /* SCHNewAppointmentByClientViewController.m */,
+			);
+			name = BookAppointment;
+			sourceTree = "<group>";
+		};
+		4D020C89D1A5E1831269D062 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA43AF892CBACB04049EE0F4 /* Pods-CounterBean.debug.xcconfig */,
+				C4410AD1BB85F5E29592FF65 /* Pods-CounterBean.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D4E0821F223A08B5B323647 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEA0BFF01DA2B548005C6F7D /* PassKit.framework */,
+				819F680A1CDFDC8900B53E3F /* CoreText.framework */,
+				10A0F7271BF0E74300044F14 /* StoreKit.framework */,
+				81CF551A1BED41BF00F0C7E8 /* MessageUI.framework */,
+				10AC823C1B735E6200DE3D80 /* Social.framework */,
+				10AC823A1B73593000DE3D80 /* Accounts.framework */,
+				10AC82381B73592900DE3D80 /* Twitter.framework */,
+				104A0E1D1B41950C00C88FEE /* libPods-KVNProgress.a */,
+				1020B4CC1B25E35100EB0A52 /* libPods-IQKeyboardManager.a */,
+				813D461B1ADAC67200BA3F44 /* libsqlite3.dylib */,
+				813D46191ADAC65900BA3F44 /* libz.dylib */,
+				813D46171ADAC63300BA3F44 /* SystemConfiguration.framework */,
+				813D46131ADAC5FF00BA3F44 /* Security.framework */,
+				813D46111ADAC5F100BA3F44 /* QuartzCore.framework */,
+				813D460F1ADAC5DB00BA3F44 /* MobileCoreServices.framework */,
+				813D460D1ADAC5C800BA3F44 /* CoreLocation.framework */,
+				813D460B1ADAC5B600BA3F44 /* CoreGraphics.framework */,
+				813D46091ADAC5A600BA3F44 /* CFNetwork.framework */,
+				813D46071ADAC59800BA3F44 /* AudioToolbox.framework */,
+				856234BE20CE1FCAFA809EF0 /* libPods-CounterBean.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81285ACB1D1B7BB900E940B7 /* Meetup */ = {
+			isa = PBXGroup;
+			children = (
+				EB9F26ED1D1504DB00D473FE /* SCHConfirmMeetup.xib */,
+				EB9F26EA1D14782500D473FE /* SCHConfirmMeetup.h */,
+				EB9F26EB1D14782500D473FE /* SCHConfirmMeetup.m */,
+				EBB4091B1D132F9700EB0B3B /* SCHMeetupController.h */,
+				EBB4091C1D132FAB00EB0B3B /* SCHMeetupController.m */,
+				81C763711D283471005F49DE /* SCHEditMeetupViewController.h */,
+				81C763721D283471005F49DE /* SCHEditMeetupViewController.m */,
+			);
+			name = Meetup;
+			sourceTree = "<group>";
+		};
+		813B73F71B686CB600B08C1F /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				81B1BAAA1B6B667A00A0DD1C /* SCHappointmentSummaryCell.h */,
+				81B1BAAB1B6B667A00A0DD1C /* SCHappointmentSummaryCell.m */,
+				81B1BAAC1B6B667A00A0DD1C /* SCHappointmentSummaryCell.xib */,
+				106122D21BC2E642004E9149 /* ClientListTableViewCell.h */,
+				106122D31BC2E642004E9149 /* ClientListTableViewCell.m */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		813D45821ADA412300BA3F44 = {
+			isa = PBXGroup;
+			children = (
+				813D458D1ADA412400BA3F44 /* CounterBean */,
+				813D45A71ADA412400BA3F44 /* CounterBeanTests */,
+				813D458C1ADA412400BA3F44 /* Products */,
+				7D4E0821F223A08B5B323647 /* Frameworks */,
+				4D020C89D1A5E1831269D062 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		813D458C1ADA412400BA3F44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				813D458B1ADA412400BA3F44 /* CounterBean.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		813D458D1ADA412400BA3F44 /* CounterBean */ = {
+			isa = PBXGroup;
+			children = (
+				DE9008AF1D9AF647003C2C07 /* CounterBean.entitlements */,
+				813D45B61ADABD0500BA3F44 /* Model */,
+				813D45DF1ADABE2900BA3F44 /* ViewController */,
+				813D46061ADAC16200BA3F44 /* Other */,
+				813D458E1ADA412400BA3F44 /* Supporting Files */,
+			);
+			name = CounterBean;
+			path = findPros;
+			sourceTree = "<group>";
+		};
+		813D458E1ADA412400BA3F44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				813D458F1ADA412400BA3F44 /* Info.plist */,
+				813D45901ADA412400BA3F44 /* main.m */,
+				813D45921ADA412400BA3F44 /* AppDelegate.h */,
+				813D45931ADA412400BA3F44 /* AppDelegate.m */,
+				81BA5F461B9DF426004E295A /* SCHAvailabilityRefreshQueue.h */,
+				81BA5F471B9DF426004E295A /* SCHAvailabilityRefreshQueue.m */,
+				818D60E71B866970004B4DD6 /* SCHBackendCommit.h */,
+				818D60E81B866970004B4DD6 /* SCHBackendCommit.m */,
+				81D6AF5C1AF7AD1D00E6BEB4 /* SCHBackgroundManager.h */,
+				81D6AF5D1AF7AD1D00E6BEB4 /* SCHBackgroundManager.m */,
+				8184336F1B4B452C00DCA561 /* SCHSyncManager.h */,
+				818433701B4B452C00DCA561 /* SCHSyncManager.m */,
+				818433631B47779100DCA561 /* SCHAvailabilityManager.h */,
+				818433641B47779100DCA561 /* SCHAvailabilityManager.m */,
+				81285AC81D19A0C700E940B7 /* SCHMeetingManager.m */,
+				81285AC91D19A0C700E940B7 /* SCHMeetingManager.h */,
+				818433691B48056B00DCA561 /* SCHAppointmentManager.h */,
+				8184336A1B48056B00DCA561 /* SCHAppointmentManager.m */,
+				81D6AF531AF32D2300E6BEB4 /* SCHConstants.h */,
+				81D6AF541AF32D2300E6BEB4 /* SCHConstants.m */,
+				813D46031ADAC13600BA3F44 /* SCHUtility.h */,
+				813D46041ADAC13600BA3F44 /* SCHUtility.m */,
+				815C592A1B548E32004103EC /* SCHAvailabilityForAppointmentManager.h */,
+				815C592B1B548E32004103EC /* SCHAvailabilityForAppointmentManager.m */,
+				103A970C1B381FB800BD5EB2 /* Network Utility */,
+				103A97101B38998600BD5EB2 /* resource */,
+				81B1BAA11B6B4E3100A0DD1C /* SelectedObjects.h */,
+				81B1BAA21B6B4E3100A0DD1C /* SelectedObjects.m */,
+				818D60A41B811B48004B4DD6 /* SCHObjectsForProcessing.h */,
+				818D60A51B811B48004B4DD6 /* SCHObjectsForProcessing.m */,
+				816AE7731BDD448400F3B88A /* SCHActiveViewControllers.h */,
+				816AE7741BDD448400F3B88A /* SCHActiveViewControllers.m */,
+				81CF551C1BEDB2F300F0C7E8 /* SCHEmailAndTextMessage.h */,
+				81CF551D1BEDB2F300F0C7E8 /* SCHEmailAndTextMessage.m */,
+				107B523A1C401FE30051E01C /* UITabBarController+HideTabBar.h */,
+				107B523B1C401FE30051E01C /* UITabBarController+HideTabBar.m */,
+				812BE9C01C4B393B005CD1F7 /* SCHAlert.h */,
+				812BE9C11C4B393B005CD1F7 /* SCHAlert.m */,
+				81148C881C9A0A7E000C2E55 /* SCHKeychainWrapper.h */,
+				81148C891C9A0A7E000C2E55 /* SCHKeychainWrapper.m */,
+				819F68071CDE8F1300B53E3F /* SCHTextAttachment.h */,
+				819F68081CDE8F1300B53E3F /* SCHTextAttachment.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		813D45A71ADA412400BA3F44 /* CounterBeanTests */ = {
+			isa = PBXGroup;
+			children = (
+				813D45AA1ADA412400BA3F44 /* findProsTests.m */,
+				813D45A81ADA412400BA3F44 /* Supporting Files */,
+			);
+			name = CounterBeanTests;
+			path = findProsTests;
+			sourceTree = "<group>";
+		};
+		813D45A81ADA412400BA3F44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				813D45A91ADA412400BA3F44 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		813D45B61ADABD0500BA3F44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				817EF6131BB1E98C00FA5DA1 /* User */,
+				81BE312C1AE736F10083B5E6 /* ScheduledEvents */,
+				813D45D51ADABDF100BA3F44 /* Service */,
+				813D45CB1ADABDAA00BA3F44 /* Availability */,
+				813D45C11ADABD6900BA3F44 /* Appointment */,
+				813D45B71ADABD2100BA3F44 /* Other */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		813D45B71ADABD2100BA3F44 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				813D45B81ADABD4900BA3F44 /* SCHLookup.h */,
+				813D45B91ADABD4900BA3F44 /* SCHLookup.m */,
+				816EDFE01B38E912001D38B4 /* SCHNotification.h */,
+				816EDFE11B38E912001D38B4 /* SCHNotification.m */,
+				819155CC1C14D30700FFC34A /* SCHUserFeedback.h */,
+				819155CD1C14D30700FFC34A /* SCHUserFeedback.m */,
+				81C887821C3C3EAE001B1AEA /* SCHLegalDocument.h */,
+				81C887831C3C3EAE001B1AEA /* SCHLegalDocument.m */,
+				810F13BD1C420ABB00FCACCA /* SCHAppRelease.h */,
+				810F13BE1C420ABB00FCACCA /* SCHAppRelease.m */,
+				810F13C01C44267500FCACCA /* SCHControl.h */,
+				810F13C11C44267500FCACCA /* SCHControl.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		813D45C11ADABD6900BA3F44 /* Appointment */ = {
+			isa = PBXGroup;
+			children = (
+				81285AC51D19A0AA00E940B7 /* SCHMeeting.h */,
+				81285AC61D19A0AA00E940B7 /* SCHMeeting.m */,
+				813D45C21ADABD8E00BA3F44 /* SCHAppointment.h */,
+				813D45C31ADABD8E00BA3F44 /* SCHAppointment.m */,
+				813D45C41ADABD8E00BA3F44 /* SCHAppointmentActivity.h */,
+				813D45C51ADABD8E00BA3F44 /* SCHAppointmentActivity.m */,
+				817BE3B31B3B92DC001D5EF3 /* SCHAppointmentSeries.h */,
+				817BE3B41B3B92DC001D5EF3 /* SCHAppointmentSeries.m */,
+			);
+			name = Appointment;
+			sourceTree = "<group>";
+		};
+		813D45CB1ADABDAA00BA3F44 /* Availability */ = {
+			isa = PBXGroup;
+			children = (
+				81D6AF4F1AEDCEFD00E6BEB4 /* SCHAvailabilityService.h */,
+				81D6AF501AEDCEFD00E6BEB4 /* SCHAvailabilityService.m */,
+				81BE312D1AE74FFD0083B5E6 /* SCHAvailability.h */,
+				81BE312E1AE74FFD0083B5E6 /* SCHAvailability.m */,
+				81E97AA71B333470008AB899 /* SCHAvailabilityForAppointment.h */,
+				81E97AA81B333470008AB899 /* SCHAvailabilityForAppointment.m */,
+				813D45CE1ADABDCB00BA3F44 /* SCHAvailableTimeBlock.h */,
+				813D45CF1ADABDCB00BA3F44 /* SCHAvailableTimeBlock.m */,
+				81843FF91D73C3B600536879 /* SCHTimeBlock.h */,
+				81843FFA1D73C3B600536879 /* SCHTimeBlock.m */,
+			);
+			name = Availability;
+			sourceTree = "<group>";
+		};
+		813D45D51ADABDF100BA3F44 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				813D45D61ADABE0100BA3F44 /* SCHService.h */,
+				813D45D71ADABE0100BA3F44 /* SCHService.m */,
+				813D45D81ADABE0100BA3F44 /* SCHServiceClassification.h */,
+				813D45D91ADABE0100BA3F44 /* SCHServiceClassification.m */,
+				813D45DA1ADABE0100BA3F44 /* SCHServiceOffering.h */,
+				813D45DB1ADABE0100BA3F44 /* SCHServiceOffering.m */,
+				811217F91C07840F0094CA02 /* SCHServiceMajorClassification.h */,
+				811217FA1C07840F0094CA02 /* SCHServiceMajorClassification.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		813D45DF1ADABE2900BA3F44 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				813D45B41ADABCA000BA3F44 /* Main.storyboard */,
+				81285ACB1D1B7BB900E940B7 /* Meetup */,
+				81C3A2BB1CCC54C000CBD254 /* Menu */,
+				81C3A2B71CC9E38800CBD254 /* ManageBusiness */,
+				81C3A2B31CC9E2B700CBD254 /* Home */,
+				10926BAE1BDFB71C0043F856 /* Help  */,
+				109630D11B4BAB8B005D554B /* BookAppointment */,
+				104A0E191B415A0600C88FEE /* ManageNotification */,
+				817B7B9B1B1691BF00700F0D /* ManageSchedule */,
+				106D1F511B217A0B004AB84D /* SCHTableViewCell */,
+				813D45FF1ADAC0E600BA3F44 /* ManageAvailability */,
+				813D45EB1ADABFDE00BA3F44 /* ManageProfile */,
+				813D45E41ADABEF300BA3F44 /* ManageService */,
+				813D45E01ADABE8700BA3F44 /* ManageAppointment */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		813D45E01ADABE8700BA3F44 /* ManageAppointment */ = {
+			isa = PBXGroup;
+			children = (
+				1057A00B1B3C09B400EDF8D7 /* googleLocation */,
+				813B73F71B686CB600B08C1F /* CustomCells */,
+				106122BE1BC2AE1D004E9149 /* SCHEditAppointmentViewController.h */,
+				106122BC1BC2AE1D004E9149 /* SCHEditAppointmentViewController.m */,
+				106122BF1BC2AE1D004E9149 /* SCHNewAppointmentBySPViewController.h */,
+				106122BD1BC2AE1D004E9149 /* SCHNewAppointmentBySPViewController.m */,
+				1051DB5A1BB9A9B600F76D24 /* SCHLocationSelectorViewController.h */,
+				1051DB5B1BB9A9B600F76D24 /* SCHLocationSelectorViewController.m */,
+				106122D61BC311D6004E9149 /* ClientValueTransformer.h */,
+				106122D71BC311D6004E9149 /* ClientValueTransformer.m */,
+				106122DB1BC3C217004E9149 /* SCHAddClientViewController.h */,
+				106122DC1BC3C217004E9149 /* SCHAddClientViewController.m */,
+				106122D91BC3A118004E9149 /* ClientCell.xib */,
+				106122B91BC2AE1D004E9149 /* SCHClientListViewController.h */,
+				106122BA1BC2AE1D004E9149 /* SCHClientListViewController.m */,
+				106122BB1BC2AE1D004E9149 /* SCHClientListViewController.xib */,
+			);
+			name = ManageAppointment;
+			sourceTree = "<group>";
+		};
+		813D45E41ADABEF300BA3F44 /* ManageService */ = {
+			isa = PBXGroup;
+			children = (
+				10460DAF1BDAD85B00D63E41 /* Edit Offering */,
+				10460DAB1BDAB0F400D63E41 /* Edit Service */,
+				1051FBAC1B834268002212E6 /* Service Offering Details */,
+				1051FBAB1B834252002212E6 /* New Service Offering */,
+				1051FBAA1B83422D002212E6 /* Service Offering */,
+				1051FBA91B8341EE002212E6 /* Service Detail */,
+				818D60AA1B82D1C7004B4DD6 /* AddService */,
+				813D461D1ADAC76500BA3F44 /* CustomCells */,
+			);
+			name = ManageService;
+			sourceTree = "<group>";
+		};
+		813D45EB1ADABFDE00BA3F44 /* ManageProfile */ = {
+			isa = PBXGroup;
+			children = (
+				81CEDF471D653C6200BAF5A5 /* SCHLoginViewController.h */,
+				81CEDF481D653C6200BAF5A5 /* SCHLoginViewController.m */,
+				10AC823E1B7382BC00DE3D80 /* SCHUserVerificationViewController.h */,
+				10AC823F1B7382BC00DE3D80 /* SCHUserVerificationViewController.m */,
+				8187CD011D64113C00C33A3A /* SCHPhoneVerificationViewController.h */,
+				8187CD021D64113C00C33A3A /* SCHPhoneVerificationViewController.m */,
+				81CEDF4A1D6A6F1A00BAF5A5 /* SCHResetPasswordViewController.h */,
+				81CEDF4B1D6A6F1A00BAF5A5 /* SCHResetPasswordViewController.m */,
+				813D45EC1ADAC00000BA3F44 /* SCHUserProfileViewController.h */,
+				813D45ED1ADAC00000BA3F44 /* SCHUserProfileViewController.m */,
+				EBC41BAF1CFF685300FCDF51 /* SCHUserAppointmentHistory.h */,
+				EBC41BB01CFF685300FCDF51 /* SCHUserAppointmentHistory.m */,
+				813D45EE1ADAC00000BA3F44 /* SCHEditUserProfileViewController.h */,
+				813D45EF1ADAC00000BA3F44 /* SCHEditUserProfileViewController.m */,
+				1069A8D21BE93B2F0024125C /* SCHUpgradeSubscriptionViewController.h */,
+				1069A8D31BE93B2F0024125C /* SCHUpgradeSubscriptionViewController.m */,
+				810FC35D1CA819330052A541 /* SCHUserFriendTableViewController.h */,
+				810FC35E1CA819330052A541 /* SCHUserFriendTableViewController.m */,
+				10F951C81BEBD94C00324281 /* SCHHelpAgreementViewController.h */,
+				10F951C91BEBD94C00324281 /* SCHHelpAgreementViewController.m */,
+				10531EB01C4FDFD800AFEC46 /* SCHHelpPrivacyPolicyTableViewController.h */,
+				10531EB11C4FDFD800AFEC46 /* SCHHelpPrivacyPolicyTableViewController.m */,
+				10531EB31C4FE00200AFEC46 /* SCHHelpTermOfUseTableViewController.h */,
+				10531EB41C4FE00200AFEC46 /* SCHHelpTermOfUseTableViewController.m */,
+				10926BB51BDFC2150043F856 /* SCHHelpSuggestionViewController.h */,
+				10926BB61BDFC2150043F856 /* SCHHelpSuggestionViewController.m */,
+			);
+			name = ManageProfile;
+			sourceTree = "<group>";
+		};
+		813D45FF1ADAC0E600BA3F44 /* ManageAvailability */ = {
+			isa = PBXGroup;
+			children = (
+				106122CD1BC2AE48004E9149 /* SCHManageAvailabilityViewController.h */,
+				106122CC1BC2AE48004E9149 /* SCHManageAvailabilityViewController.m */,
+			);
+			name = ManageAvailability;
+			sourceTree = "<group>";
+		};
+		813D46061ADAC16200BA3F44 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				813D459B1ADA412400BA3F44 /* Images.xcassets */,
+				813D459D1ADA412400BA3F44 /* LaunchScreen.xib */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		813D461D1ADAC76500BA3F44 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				813D461E1ADAC78C00BA3F44 /* SCHservicePictureTableViewCell.h */,
+				813D461F1ADAC78C00BA3F44 /* SCHservicePictureTableViewCell.m */,
+				813D46201ADAC78C00BA3F44 /* SCHservicePictureTableViewCell.xib */,
+				813D46211ADAC78C00BA3F44 /* SCHAddServiceDescription.h */,
+				813D46221ADAC78C00BA3F44 /* SCHAddServiceDescription.m */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		817B7B9B1B1691BF00700F0D /* ManageSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				817B7B9C1B16921F00700F0D /* SCHScheduleTableViewController.h */,
+				817B7B9D1B16921F00700F0D /* SCHScheduleTableViewController.m */,
+				1051EB541B5E58E30083191F /* SCHScheduleSummeryViewController.h */,
+				1051EB551B5E58E30083191F /* SCHScheduleSummeryViewController.m */,
+				103C734C1BA9E0A400A1E367 /* SCHScheduleFilterViewController.h */,
+				103C734D1BA9E0A400A1E367 /* SCHScheduleFilterViewController.m */,
+				104660A91BD5690300968AC5 /* SCHScheduleClientDetailViewController.h */,
+				104660AA1BD5690300968AC5 /* SCHScheduleClientDetailViewController.m */,
+				EB3353661D1C6728004FE711 /* SCHInvitiesListViewController.h */,
+				EB3353671D1C6728004FE711 /* SCHInvitiesListViewController.m */,
+				81DF5CAB1D2B38ED0057730A /* SCHMeetupChangeRequestTableViewController.h */,
+				81DF5CAC1D2B38ED0057730A /* SCHMeetupChangeRequestTableViewController.m */,
+			);
+			name = ManageSchedule;
+			sourceTree = "<group>";
+		};
+		817EF6131BB1E98C00FA5DA1 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				817EF6141BB1E9F400FA5DA1 /* SCHUserLocation.h */,
+				817EF6151BB1E9F400FA5DA1 /* SCHUserLocation.m */,
+				818F18631BB24243007D1593 /* SCHServiceProviderClientList.h */,
+				818F18641BB24243007D1593 /* SCHServiceProviderClientList.m */,
+				812069421BBF0DAD00536D73 /* SCHNonUserClient.h */,
+				812069431BBF0DAD00536D73 /* SCHNonUserClient.m */,
+				814F68591BD0A72D004A3406 /* SCHPaymentFrequency.h */,
+				814F685A1BD0A72D004A3406 /* SCHPaymentFrequency.m */,
+				816AE7791BDDB38000F3B88A /* SCHScheduleScreenFilter.h */,
+				816AE77A1BDDB38000F3B88A /* SCHScheduleScreenFilter.m */,
+				819155CF1C15302D00FFC34A /* SCHUserFevoriteService.h */,
+				819155D01C15302D00FFC34A /* SCHUserFevoriteService.m */,
+				810FC3601CA835990052A541 /* SCHUserFriend.h */,
+				810FC3611CA835990052A541 /* SCHUserFriend.m */,
+				81144B001CE562FF00F82A90 /* SCHUser.h */,
+				81144B011CE562FF00F82A90 /* SCHUser.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		818D60AA1B82D1C7004B4DD6 /* AddService */ = {
+			isa = PBXGroup;
+			children = (
+				103DCD1C1BCC008800E7C0A7 /* Photo Picker */,
+				813D45E71ADABF4000BA3F44 /* SCHAddServiceViewController.h */,
+				813D45E81ADABF4000BA3F44 /* SCHAddServiceViewController.m */,
+			);
+			name = AddService;
+			sourceTree = "<group>";
+		};
+		81BE312C1AE736F10083B5E6 /* ScheduledEvents */ = {
+			isa = PBXGroup;
+			children = (
+				81D6AF431AEBFE8A00E6BEB4 /* SCHScheduledEventManager.h */,
+				81D6AF441AEBFE8A00E6BEB4 /* SCHScheduledEventManager.m */,
+				81D6AF491AEC039A00E6BEB4 /* SCHEvent.h */,
+				81D6AF4A1AEC039A00E6BEB4 /* SCHEvent.m */,
+			);
+			name = ScheduledEvents;
+			sourceTree = "<group>";
+		};
+		81C3A2B31CC9E2B700CBD254 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				81C3A2B41CC9E2EC00CBD254 /* SCHHomeViewController.h */,
+				81C3A2B51CC9E2EC00CBD254 /* SCHHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		81C3A2B71CC9E38800CBD254 /* ManageBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				81C3A2B81CC9E3BC00CBD254 /* SCHManageBusinessViewController.h */,
+				81C3A2B91CC9E3BC00CBD254 /* SCHManageBusinessViewController.m */,
+				109DE78C1BC6CF0A00069A4D /* SCHUserServicesTableViewController.h */,
+				109DE78D1BC6CF0A00069A4D /* SCHUserServicesTableViewController.m */,
+				10F951BC1BEB9B8E00324281 /* SCHUserLocationTableViewController.h */,
+				10F951BD1BEB9B8E00324281 /* SCHUserLocationTableViewController.m */,
+				109DE78F1BC6F46100069A4D /* SCHUserClientListTableViewController.h */,
+				109DE7901BC6F46100069A4D /* SCHUserClientListTableViewController.m */,
+				100239A11C0607370036C4BE /* SCHUserClientDetailViewController.h */,
+				100239A21C0607370036C4BE /* SCHUserClientDetailViewController.m */,
+				102719611C19CBBD00EE336C /* SCHUserAddNewClientViewController.h */,
+				102719621C19CBBD00EE336C /* SCHUserAddNewClientViewController.m */,
+			);
+			name = ManageBusiness;
+			sourceTree = "<group>";
+		};
+		81C3A2BB1CCC54C000CBD254 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				EB36453B1CC6906D00613BFD /* SlideMenuViewController.h */,
+				EB36453C1CC6906D00613BFD /* SlideMenuViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		813D458A1ADA412300BA3F44 /* CounterBean */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 813D45AE1ADA412400BA3F44 /* Build configuration list for PBXNativeTarget "CounterBean" */;
+			buildPhases = (
+				0D06AD892087E1FF623900AB /* [CP] Check Pods Manifest.lock */,
+				813D45871ADA412300BA3F44 /* Sources */,
+				813D45881ADA412300BA3F44 /* Frameworks */,
+				813D45891ADA412300BA3F44 /* Resources */,
+				260C5E77C2317619CEC837D5 /* [CP] Embed Pods Frameworks */,
+				49F0342B0226721D9130AF11 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CounterBean;
+			productName = findPros;
+			productReference = 813D458B1ADA412400BA3F44 /* CounterBean.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		813D45831ADA412300BA3F44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = SujitDalai;
+				TargetAttributes = {
+					813D458A1ADA412300BA3F44 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = QQ2Q9JWQ7Y;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 813D45861ADA412300BA3F44 /* Build configuration list for PBXProject "CounterBean" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 813D45821ADA412300BA3F44;
+			productRefGroup = 813D458C1ADA412400BA3F44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				813D458A1ADA412300BA3F44 /* CounterBean */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		813D45891ADA412300BA3F44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10EBDA2A1BCD8AF8005F40A7 /* mail_icon.png in Resources */,
+				106122DA1BC3A118004E9149 /* ClientCell.xib in Resources */,
+				EBA042301D6E2BC200A7468C /* mail.png in Resources */,
+				101457311B7515D400D616EA /* flag.png in Resources */,
+				EB9212D81D79FBC2009B02AE /* back.png in Resources */,
+				EB9F26EE1D1504DB00D473FE /* SCHConfirmMeetup.xib in Resources */,
+				107276281BBC784E000FA0A3 /* Filter_Black@2x.png in Resources */,
+				813D45B51ADABCA000BA3F44 /* Main.storyboard in Resources */,
+				1057A0171B3C2B3600EDF8D7 /* location.png in Resources */,
+				10EBDA321BCD94FC005F40A7 /* tag.png in Resources */,
+				EBCE51E31D2C31890028ECC1 /* History.png in Resources */,
+				1072761F1BBC7601000FA0A3 /* Icon-Back.png in Resources */,
+				109291BF1C7CB1B7008CB05A /* share.png in Resources */,
+				107276211BBC7601000FA0A3 /* Icon-Back@3x.png in Resources */,
+				103DCD1B1BCA6BF900E7C0A7 /* client_logo.png in Resources */,
+				107460261B7E325900105B98 /* findPros_2.png in Resources */,
+				813D46241ADAC78C00BA3F44 /* SCHservicePictureTableViewCell.xib in Resources */,
+				EB5741071D47B01E008940C4 /* google_logo.png in Resources */,
+				EBE5AB021CC960C3007882F4 /* back-arrow.png in Resources */,
+				EBCE51E41D2C31890028ECC1 /* Meetup.png in Resources */,
+				EBE5AB041CC960C3007882F4 /* menu-icon.png in Resources */,
+				10EBDA301BCD94FC005F40A7 /* email.png in Resources */,
+				EB5741051D47B01E008940C4 /* email_icon.png in Resources */,
+				EBE5AB031CC960C3007882F4 /* back-arrow@2x.png in Resources */,
+				81B1BAAE1B6B667A00A0DD1C /* SCHappointmentSummaryCell.xib in Resources */,
+				10075A691B67A95B00DC622C /* findprosicon.png in Resources */,
+				EBE85A8E1D2D83A600615C34 /* icon_meetup.png in Resources */,
+				EB5741081D47B01E008940C4 /* line_image.png in Resources */,
+				EB5741041D47B01E008940C4 /* background_img.png in Resources */,
+				103C0C3D1B42CBBC001D0335 /* btndetail.png in Resources */,
+				1057A0181B3C2B3600EDF8D7 /* location@2x.png in Resources */,
+				106122C11BC2AE1D004E9149 /* SCHClientListViewController.xib in Resources */,
+				10EBDA2B1BCD8AF8005F40A7 /* msg_icon.png in Resources */,
+				106122CA1BC2AE32004E9149 /* SPGooglePlacesAutocompleteDemoViewController.xib in Resources */,
+				EBE85A8C1D2D83A600615C34 /* icon_fav.png in Resources */,
+				10EBDA2C1BCD8AF8005F40A7 /* phone_icon.png in Resources */,
+				1057A0151B3C2B3600EDF8D7 /* locateButton.png in Resources */,
+				EBCE51E11D2C31890028ECC1 /* appointment.png in Resources */,
+				813D459F1ADA412400BA3F44 /* LaunchScreen.xib in Resources */,
+				EBE85A8B1D2D83A600615C34 /* icon_apointment.png in Resources */,
+				107460251B7E325900105B98 /* findPros_1.png in Resources */,
+				EB5741091D47B01E008940C4 /* password_icon.png in Resources */,
+				EBCE51E21D2C31890028ECC1 /* fav.png in Resources */,
+				107276291BBC784E000FA0A3 /* Filter_Black@3x.png in Resources */,
+				EBE5AB051CC960C3007882F4 /* menu-icon@2x.png in Resources */,
+				EB9212D61D79FB99009B02AE /* back1.png in Resources */,
+				10FC0CE01C58CF6500FF1D76 /* detail_indicator.png in Resources */,
+				10EBDA311BCD94FC005F40A7 /* service.png in Resources */,
+				813D459C1ADA412400BA3F44 /* Images.xcassets in Resources */,
+				106D1F841B22144E004AB84D /* ReusableUIComponents.xib in Resources */,
+				EBE85A8D1D2D83A600615C34 /* icon_history.png in Resources */,
+				107276201BBC7601000FA0A3 /* Icon-Back@2x.png in Resources */,
+				EBA0422E1D6E28AA00A7468C /* f.png in Resources */,
+				EB5741061D47B01E008940C4 /* facebook_logo.png in Resources */,
+				1057A0161B3C2B3600EDF8D7 /* locateButton@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D06AD892087E1FF623900AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		260C5E77C2317619CEC837D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CounterBean/Pods-CounterBean-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49F0342B0226721D9130AF11 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CounterBean/Pods-CounterBean-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		813D45871ADA412300BA3F44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C3A2B61CC9E2EC00CBD254 /* SCHHomeViewController.m in Sources */,
+				10926BB41BDFB7D20043F856 /* SCHHelpViewController.m in Sources */,
+				816AE77B1BDDB38000F3B88A /* SCHScheduleScreenFilter.m in Sources */,
+				813D46251ADAC78C00BA3F44 /* SCHAddServiceDescription.m in Sources */,
+				101FCB531B4D793D0026C0BE /* SCHServiceProviderAvailabilityViewController.m in Sources */,
+				81D6AF451AEBFE8A00E6BEB4 /* SCHScheduledEventManager.m in Sources */,
+				10423FCF1C08D0C700D62073 /* SCHMinorClassificationTableViewController.m in Sources */,
+				106122CE1BC2AE48004E9149 /* SCHManageAvailabilityViewController.m in Sources */,
+				811217FB1C07840F0094CA02 /* SCHServiceMajorClassification.m in Sources */,
+				810F13C21C44267500FCACCA /* SCHControl.m in Sources */,
+				103DCD1F1BCC00A400E7C0A7 /* FDTakeController.m in Sources */,
+				81BA5F481B9DF426004E295A /* SCHAvailabilityRefreshQueue.m in Sources */,
+				819155CE1C14D30700FFC34A /* SCHUserFeedback.m in Sources */,
+				813D46051ADAC13600BA3F44 /* SCHUtility.m in Sources */,
+				81285ACA1D19A0C700E940B7 /* SCHMeetingManager.m in Sources */,
+				813D45D31ADABDCB00BA3F44 /* SCHAvailableTimeBlock.m in Sources */,
+				103C734E1BA9E0A400A1E367 /* SCHScheduleFilterViewController.m in Sources */,
+				8184336B1B48056B00DCA561 /* SCHAppointmentManager.m in Sources */,
+				817EF6161BB1E9F400FA5DA1 /* SCHUserLocation.m in Sources */,
+				10AC82401B7382BC00DE3D80 /* SCHUserVerificationViewController.m in Sources */,
+				819F68091CDE8F1300B53E3F /* SCHTextAttachment.m in Sources */,
+				106122D81BC311D6004E9149 /* ClientValueTransformer.m in Sources */,
+				106122C21BC2AE1D004E9149 /* SCHEditAppointmentViewController.m in Sources */,
+				81144B021CE562FF00F82A90 /* SCHUser.m in Sources */,
+				10F951BE1BEB9B8E00324281 /* SCHUserLocationTableViewController.m in Sources */,
+				813D45941ADA412400BA3F44 /* AppDelegate.m in Sources */,
+				EB9F26EC1D14782500D473FE /* SCHConfirmMeetup.m in Sources */,
+				81D6AF511AEDCEFD00E6BEB4 /* SCHAvailabilityService.m in Sources */,
+				817B7B9E1B16921F00700F0D /* SCHScheduleTableViewController.m in Sources */,
+				813D45C81ADABD8E00BA3F44 /* SCHAppointment.m in Sources */,
+				813D45F11ADAC00000BA3F44 /* SCHEditUserProfileViewController.m in Sources */,
+				EB36453D1CC6906D00613BFD /* SlideMenuViewController.m in Sources */,
+				106D1F8A1B22150E004AB84D /* TextInputCell.m in Sources */,
+				81E97AA91B333470008AB899 /* SCHAvailabilityForAppointment.m in Sources */,
+				813D45DE1ADABE0100BA3F44 /* SCHServiceOffering.m in Sources */,
+				106122D41BC2E642004E9149 /* ClientListTableViewCell.m in Sources */,
+				100239A31C0607370036C4BE /* SCHUserClientDetailViewController.m in Sources */,
+				10460DB21BDAD87700D63E41 /* SCHEditOfferingViewController.m in Sources */,
+				109630D71B4BF5E2005D554B /* SCHBookDetailViewController.m in Sources */,
+				818D60E91B866970004B4DD6 /* SCHBackendCommit.m in Sources */,
+				106122C31BC2AE1D004E9149 /* SCHNewAppointmentBySPViewController.m in Sources */,
+				81D6AF5E1AF7AD1D00E6BEB4 /* SCHBackgroundManager.m in Sources */,
+				813D46231ADAC78C00BA3F44 /* SCHservicePictureTableViewCell.m in Sources */,
+				109DE78E1BC6CF0A00069A4D /* SCHUserServicesTableViewController.m in Sources */,
+				1069A8D41BE93B2F0024125C /* SCHUpgradeSubscriptionViewController.m in Sources */,
+				81843FFB1D73C3B600536879 /* SCHTimeBlock.m in Sources */,
+				109630D41B4BAC0B005D554B /* SCHBookViewController.m in Sources */,
+				101FCB501B4D74CD0026C0BE /* SCHServiceProviderViewController.m in Sources */,
+				812BE9C21C4B393B005CD1F7 /* SCHAlert.m in Sources */,
+				818D60A61B811B48004B4DD6 /* SCHObjectsForProcessing.m in Sources */,
+				81B1BAA31B6B4E3100A0DD1C /* SelectedObjects.m in Sources */,
+				81DF5CAD1D2B38ED0057730A /* SCHMeetupChangeRequestTableViewController.m in Sources */,
+				106122DD1BC3C217004E9149 /* SCHAddClientViewController.m in Sources */,
+				81BE312F1AE74FFD0083B5E6 /* SCHAvailability.m in Sources */,
+				81285AC71D19A0AA00E940B7 /* SCHMeeting.m in Sources */,
+				81C887841C3C3EAE001B1AEA /* SCHLegalDocument.m in Sources */,
+				10531EB51C4FE00200AFEC46 /* SCHHelpTermOfUseTableViewController.m in Sources */,
+				81D6AF4B1AEC039A00E6BEB4 /* SCHEvent.m in Sources */,
+				10460DAE1BDAB11A00D63E41 /* SCHEditServiceViewController.m in Sources */,
+				813D45EA1ADABF4000BA3F44 /* SCHAddServiceViewController.m in Sources */,
+				104660AB1BD5690300968AC5 /* SCHScheduleClientDetailViewController.m in Sources */,
+				815C59261B4F1C77004103EC /* SCHNewAppointmentByClientViewController.m in Sources */,
+				10ADFEDF1B7CF52800E1F73A /* SCHServiceOfferingDetailsViewController.m in Sources */,
+				EBB4091D1D132FAB00EB0B3B /* SCHMeetupController.m in Sources */,
+				102719631C19CBBD00EE336C /* SCHUserAddNewClientViewController.m in Sources */,
+				81148C8A1C9A0A7E000C2E55 /* SCHKeychainWrapper.m in Sources */,
+				818433711B4B452C00DCA561 /* SCHSyncManager.m in Sources */,
+				10F951CA1BEBD94C00324281 /* SCHHelpAgreementViewController.m in Sources */,
+				104A0E1C1B415A9C00C88FEE /* SCHNotificationViewController.m in Sources */,
+				1051DB5C1BB9A9B600F76D24 /* SCHLocationSelectorViewController.m in Sources */,
+				817BE3B51B3B92DC001D5EF3 /* SCHAppointmentSeries.m in Sources */,
+				813D45F01ADAC00000BA3F44 /* SCHUserProfileViewController.m in Sources */,
+				813D45DC1ADABE0100BA3F44 /* SCHService.m in Sources */,
+				10ADFED01B7CC11C00E1F73A /* SCHServiceDatailViewController.m in Sources */,
+				81D6AF551AF32D2300E6BEB4 /* SCHConstants.m in Sources */,
+				818F18651BB24243007D1593 /* SCHServiceProviderClientList.m in Sources */,
+				EBC41BB11CFF685300FCDF51 /* SCHUserAppointmentHistory.m in Sources */,
+				813D45DD1ADABE0100BA3F44 /* SCHServiceClassification.m in Sources */,
+				109DE7911BC6F46100069A4D /* SCHUserClientListTableViewController.m in Sources */,
+				81CF551E1BEDB2F300F0C7E8 /* SCHEmailAndTextMessage.m in Sources */,
+				818433651B47779100DCA561 /* SCHAvailabilityManager.m in Sources */,
+				813D45BE1ADABD4900BA3F44 /* SCHLookup.m in Sources */,
+				81CEDF491D653C6200BAF5A5 /* SCHLoginViewController.m in Sources */,
+				10F951C71BEBD71300324281 /* SCHHelpTopicTableViewController.m in Sources */,
+				814F685B1BD0A72D004A3406 /* SCHPaymentFrequency.m in Sources */,
+				810F13BF1C420ABB00FCACCA /* SCHAppRelease.m in Sources */,
+				10ADFEDC1B7CF17300E1F73A /* SCHServiceNewOfferingsViewController.m in Sources */,
+				106122C91BC2AE32004E9149 /* SPGooglePlacesAutocompleteDemoViewController.m in Sources */,
+				10926BB71BDFC2150043F856 /* SCHHelpSuggestionViewController.m in Sources */,
+				810FC35F1CA819330052A541 /* SCHUserFriendTableViewController.m in Sources */,
+				1051EB561B5E58E30083191F /* SCHScheduleSummeryViewController.m in Sources */,
+				EB3353681D1C6728004FE711 /* SCHInvitiesListViewController.m in Sources */,
+				813D45C91ADABD8E00BA3F44 /* SCHAppointmentActivity.m in Sources */,
+				816AE7751BDD448400F3B88A /* SCHActiveViewControllers.m in Sources */,
+				81CEDF4C1D6A6F1A00BAF5A5 /* SCHResetPasswordViewController.m in Sources */,
+				819155D11C15302D00FFC34A /* SCHUserFevoriteService.m in Sources */,
+				816EDFE21B38E912001D38B4 /* SCHNotification.m in Sources */,
+				8187CD031D64113C00C33A3A /* SCHPhoneVerificationViewController.m in Sources */,
+				81C763731D283471005F49DE /* SCHEditMeetupViewController.m in Sources */,
+				106122D11BC2C7E4004E9149 /* SCHNotificationAcknowledgementDetailViewController.m in Sources */,
+				107B523C1C401FE30051E01C /* UITabBarController+HideTabBar.m in Sources */,
+				812069441BBF0DAD00536D73 /* SCHNonUserClient.m in Sources */,
+				10ADFED31B7CED3200E1F73A /* SCHServiceOfferingViewController.m in Sources */,
+				10531EB21C4FDFD800AFEC46 /* SCHHelpPrivacyPolicyTableViewController.m in Sources */,
+				106122CB1BC2AE32004E9149 /* LocationValueTrasformer.m in Sources */,
+				810FC3621CA835990052A541 /* SCHUserFriend.m in Sources */,
+				815C592C1B548E32004103EC /* SCHAvailabilityForAppointmentManager.m in Sources */,
+				106D1F871B2214C2004AB84D /* TextViewInputCell.m in Sources */,
+				81B1BAAD1B6B667A00A0DD1C /* SCHappointmentSummaryCell.m in Sources */,
+				103A970F1B381FEF00BD5EB2 /* Reachability.m in Sources */,
+				81C3A2BA1CC9E3BC00CBD254 /* SCHManageBusinessViewController.m in Sources */,
+				106122C01BC2AE1D004E9149 /* SCHClientListViewController.m in Sources */,
+				813D45911ADA412400BA3F44 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		813D459D1ADA412400BA3F44 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				813D459E1ADA412400BA3F44 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		813D45AC1ADA412400BA3F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		813D45AD1ADA412400BA3F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		813D45AF1ADA412400BA3F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA43AF892CBACB04049EE0F4 /* Pods-CounterBean.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = CounterBean.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = findPros/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CounterBean;
+				PRODUCT_NAME = CounterBean;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		813D45B01ADA412400BA3F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4410AD1BB85F5E29592FF65 /* Pods-CounterBean.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = CounterBean.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = findPros/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CounterBean;
+				PRODUCT_NAME = CounterBean;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		813D45861ADA412300BA3F44 /* Build configuration list for PBXProject "CounterBean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813D45AC1ADA412400BA3F44 /* Debug */,
+				813D45AD1ADA412400BA3F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		813D45AE1ADA412400BA3F44 /* Build configuration list for PBXNativeTarget "CounterBean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813D45AF1ADA412400BA3F44 /* Debug */,
+				813D45B01ADA412400BA3F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 813D45831ADA412300BA3F44 /* Project object */;
+}

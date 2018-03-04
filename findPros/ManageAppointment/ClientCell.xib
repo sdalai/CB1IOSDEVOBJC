@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="clientCell" rowHeight="75" id="2oZ-O3-0kx" customClass="ClientListTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="341" height="75"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2oZ-O3-0kx" id="ciS-I4-6hi">
+                <frame key="frameInset" width="341" height="74"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cgp-79-fHk">
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Cgp-79-fHk" secondAttribute="height" multiplier="215:21" id="IC3-ak-YZW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fc-l1-Ttn">
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="4fc-l1-Ttn" secondAttribute="height" multiplier="34:7" id="Yb8-iU-TMW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODA-r7-Tvf">
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4fc-l1-Ttn" firstAttribute="leading" secondItem="Cgp-79-fHk" secondAttribute="trailing" constant="8" id="0tG-SA-4Qb"/>
+                    <constraint firstItem="4fc-l1-Ttn" firstAttribute="top" secondItem="ciS-I4-6hi" secondAttribute="topMargin" id="74X-Ye-QWe"/>
+                    <constraint firstItem="ODA-r7-Tvf" firstAttribute="top" secondItem="Cgp-79-fHk" secondAttribute="bottom" constant="8" id="7Gm-Tp-cZb"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ODA-r7-Tvf" secondAttribute="bottom" constant="8" id="Ea2-zF-EQ9"/>
+                    <constraint firstItem="Cgp-79-fHk" firstAttribute="leading" secondItem="ciS-I4-6hi" secondAttribute="leadingMargin" id="Ob3-fr-zBm"/>
+                    <constraint firstItem="Cgp-79-fHk" firstAttribute="top" secondItem="ciS-I4-6hi" secondAttribute="topMargin" id="Tfi-a7-Jua"/>
+                    <constraint firstItem="ODA-r7-Tvf" firstAttribute="top" secondItem="4fc-l1-Ttn" secondAttribute="bottom" constant="8" id="ldc-W6-NmJ"/>
+                    <constraint firstItem="ODA-r7-Tvf" firstAttribute="leading" secondItem="ciS-I4-6hi" secondAttribute="leadingMargin" id="oN8-tP-sKD"/>
+                    <constraint firstItem="4fc-l1-Ttn" firstAttribute="trailing" secondItem="ciS-I4-6hi" secondAttribute="trailingMargin" id="pNc-Li-yni"/>
+                    <constraint firstItem="ODA-r7-Tvf" firstAttribute="trailing" secondItem="ciS-I4-6hi" secondAttribute="trailingMargin" id="sX2-hk-CuE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="txtEmail" destination="ODA-r7-Tvf" id="Ust-q2-Www"/>
+                <outlet property="txtName" destination="Cgp-79-fHk" id="lBy-Jj-KMA"/>
+                <outlet property="txtPhone" destination="4fc-l1-Ttn" id="YZc-b6-aO2"/>
+            </connections>
+            <point key="canvasLocation" x="391.5" y="676.5"/>
+        </tableViewCell>
+    </objects>
+</document>
